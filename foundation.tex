@@ -1,0 +1,2070 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\chapter{\'E meglio ricordare}
+
+\section{Masse}
+ \begin{itemize*}
+ \item $m_P=938.3\Mcs$
+\item $m_N=939.7\Mcs$
+\item $m_e=0.51\Mcs$
+
+ \end{itemize*}
+ 
+ 
+ \section{Costante struttura fine}
+ 
+ $\alpha_{SF}=\frac{e^2}{(4\pi\epsilon_0)\hbar c}$.
+
+The ratio of three characteristic lengths:
+
+the classical electron radius $r_e=(\frac{1}{4\pi\epsilon_0})\frac{e^2}{m_ec^2}$, the Bohr radius $a_0=(4\pi\epsilon_0)\frac{\hbar^2}{m_ee^2}$  and the Compton wavelength of the electron $\lambdabar_e=\frac{\hbar}{m_ec}$:
+
+$r_e=\frac{\alpha\lambda_e}{2\pi}=\alpha^2a_0$.
+
+$e^2=1.44\,MeV\,fm$
+
+ \section{Relazioni $u,c,MeV$}
+ 
+ $c^2=931.502\frac{MeV}{u}$.
+ 
+ $1 u=931.49 \Mcs$.
+ 
+ \section{Conversione eV-Kelvin}
+ 
+\begin{align*}
+1  ^{\degree}K&= 8.621738*10^{-5}  eV \\
+&= 0.0862 meV \\
+&= 0.695 cm^{-1}
+\end{align*}
+
+\begin{align*}
+     1 a.u=27.211396 eV=219474.63 cm^{-1}\\
+     1 Ry=13.6057 eV \\
+     1 eV =8065.54 cm^{-1} \\
+     1 eV= 11,600  ^{\degree}K\\
+   1 meV = 8.065 cm^{-1}
+\end{align*}
+
+ \section{Magnetone nucleare}
+ 
+ \begin{equation*}
+  \frac{e\hbar}{2m_pc}=\mu_N=\frac{\mu_B}{1836}
+ \end{equation*}
+ 
+ \section{Deutone}
+ 
+\begin{align*}
+&B=2.22 MeV\\
+&\mu_d=0.8574376\mu_N\\
+&S=1\\
+&Q=2.8*10^{-27}cm^2=0.28fm^2(Q_{zz}=\frac{2}{5}eZ(b^2-a^2))
+\end{align*}
+ 
+ \section{Atomo d'idrogeno}
+ 
+ \begin{align*}
+&E_n=\frac{m_ec^2\alpha^2}{2n^2}=\frac{13.6eV}{n^2}\\
+&a_0=\frac{\hbar}{m_ec\alpha}
+ \end{align*}
+
+\chapter{Legge decadimento radiattivo}
+
+\subsection{Probabilit\'a di decadimento per unit\'a di tempo}
+\begin{align*}
+\lambda=\frac{\text{Probabilit\'a che fra N nuclei 1 decada}}{\text{unit\'a di tempo}}=-\frac{dN}{N}\frac{1}{\text{dt}}
+\end{align*}
+
+integro ed ho la legge del decadimento radiativo:
+$N(t)=N_0e^{-\lambda t}$.
+
+\subsection{Attivit\'a}
+\begin{align*}
+A(t)=\frac{\text{\# decadimenti}}{\text{unit\'a tempo}}=A_0(=\frac{N_0}{\tau})e^{-\lambda t}
+\end{align*}
+
+Unit\'a.
+
+Bequerel:
+$Bq=\frac{1 \#}{tempo}$.
+
+Curie:
+$Ci=3,7 10^{10} \frac{\#}{sec}$.
+
+\subsection{Vita media}
+\begin{align*}
+\tau=\frac{\int_0^{\infty}t|\frac{dN}{dt}|dt}{\int_0^{\infty}|\frac{dN}{dt}|dt}
+\end{align*}
+
+\subsection{Tempo di dimezzamento}
+$T_{\frac{1}{2}}=\frac{N_0}{2}=N_0e^{-\lambda t_{\frac{1}{2}}}$ cio\'e \ev{t_{\frac{1}{2}}=\tau 0,693}.
+
+\subsection{Attivit\'a specifica}
+
+Attivit\'a specifica=attivit\'a per unit\'a di massa:
+
+$\lambda\frac{N_A}{A(Numero atomico)}=$.
+
+Attivit\'a emessa durante primo secondo di decadimento di una massa di un grammo.
+
+\subsection{Branching ratio}
+
+\begin{align*}
+^{40}K\to\left\{\begin{array}{l} ^{40}Ar \to \lambda_{K,Ar}=0,581 10^{-10} y^{-1} \text{(\Pelectron capture)} \\ ^{40}Ca \to \lambda_{K,Ca}=4,962 10^{-10} y^{-1} \text{(\Pelectron emission)}\\ \end{array} \right.\\
+\end{align*}
+
+La probabilit\'a di un decadimento \'e la somma delle ''probabilit\'a parziali'':
+
+$\lambda_{K,T}=\lambda_{K,Ar}+\lambda_{K,Ca}$
+
+\begin{align*}
+\left\{ \begin{array}{c} ^{40}Ar\\^{40}Ca\\ \end{array} \right\}= \left\{ \begin{array}{c} ^{40}Ar^0 \\ ^{40}Ca^0 \end{array} \right\} + \underbrace{\left\{\begin{array}{c} \frac{\lambda_{K,Ar}}{\lambda_{K,T}}\\ \frac{\lambda_{K,Ca}}{\lambda_{K,T}}\\ \end{array}\right\}}_{\text{Branching ratio}}^{40}K(e^{-\lambda_{k,T}t}-1)
+\end{align*}
+
+\subsection{Total activity of a sample}
+
+The total activity of a sample is the sum of all processes counted per unit of time:
+
+$A=\sum_iA_i=\sum\lambda_in_i$.
+
+\subsection{Activity of a two elements radioactive chain}
+
+\lbt{N_1(t)=N_0\exp{-\lambda_1 t}}{N_2(t)=N_0\frac{\lambda_1}{\lambda_2-\lambda_1}(\exp{\lambda_1t}-\exp{\lambda_2t})} e $A_2(t)=\lambda_2N_2(t)=\frac{\lambda_1\lambda_2}{\lambda_2-\lambda_1}(\exp{\lambda_1t}-\exp{\lambda_2t})$
+
+Casi particolari:
+
+\begin{enumerate*}
+
+\item $\lambda_1\ll\lambda_2$ (parent long lived - secular equilibrium).
+
+Approssimo $\exp{-\lambda_1}t\approx1$ quindi $N_2(t)=N_0\frac{\lambda_1}{\lambda_2}(1-\exp{-\lambda_2 t})$:
+
+as t becomes large nuclei of type 2 are decaying at same rate at which are formed. 
+
+
+\item $\lambda_1<\lambda_2$ (Transient equilibrium).
+
+Facendo il rapporto fra le attivit\'a
+\begin{align*}
+\frac{\lambda_2N_2}{\lambda_1N_1}=\frac{\lambda_2}{\lambda_2-\lambda_1}(1-\exp{-(\lambda_2-\lambda_1)t})
+\end{align*}
+
+vedo che al crescere di t il rapporto
+
+\begin{align*}
+\frac{A_2}{A_1}\abc{\text{t grande}}\frac{\lambda_2}{\lambda_2-\lambda_1}
+\end{align*}
+
+
+\item $\lambda_1>\lambda_2$.
+
+I nuclei parent decadono rapidamente, l'attivit\'a dei nuclei di prima generazione raggiunge un massimo e poi decade con la sua costante caratteristica; $N_2(t)\abc{t\gg\tau_1}N_0\frac{\lambda_1}{\lambda_1-\lambda_2}\exp{-\lambda_2t}$
+
+\end{enumerate*}
+
+\subsection{Catena di decadimento $^{235}U$}
+\begin{align*}
+^{235}U\decaya{\lambda=3.1*10^{-17}}^{231}Th\decaybm{7.6*10^{-4}}^{231}Pa\decaya{6.8*10^{-13}}^{227}
+Ac\decaybm{1.6*10^{-9}}^{227}Th\decaya{4.2*10^{-7}}^{223}Ra\decaya{7.4*10^{-7}}
+\end{align*}
+
+I nuclei di prima generazione, $^{231}Th$, aumentano fino a raggiungere l'equilibrio secolare in un paio di giorni quando l'attivit\'a del Thorio e quella dell'uranio sono uguali.
+Passando al $^{231}Pa$ per $T_{th}\ll t\ll T_U$ (trascuro il tempo di decadimento del torio) approssimo $\frac{dn_{pa}}{dt}=\lambda_Un_u-\lambda_{Pa}n_{Pa}$. $Pa$ ha tempo di dimezzamento $T=\frac{0.693}{\lambda}$ pi\'u lungo di tutti i nuclei di generazione successiva: crescono in equilibrio secolare, hanno stessa attivit\'a, in particolare $Pa$ e $^{223}_{88}Ra$. 
+
+\section{Decadimenti: Regole di selezione}
+
+Considero un decadimentodel tipo $A(J=l)\rightarrow B(J=0)+C(J=0)$, l'Hamiltoniana \'e invariante per rotazione quindi il momento angolare \'e conservato, cos\'i nello spazio degli impulsi:\\
+ $\braket{\vec{k}|\psi_F}\propto\delta{(E-\frac{\hbar k^2}{2m})}Y_l^m(\hat{k})$ con l spin di A.
+ 
+ \subsection{Distribuzione angolare dei prodotti di decadimento}
+La funzione d'onda nello spazio degli impulsi \'e l'ampiezza di probabilit\'a di trovare il prodotto di decadimento con direzione dell'impulso relativo $\vec{k}$.
+
+Esempio:
+
+${Ne^{20}}^*\rightarrow O^{16}+He^4$, $O^{16}$ sappiamo che $He^4$ hanno spin 0.
+
+Presa una z arbitraria e siano $(\theta,\phi)$ gli angoli che definiscono la direzione relativa $\vec{k}$ dei prodotti di decadimento, nei casi pi\'u semplici in cui $m=\pm1$ o $0$: 
+
+\begin{itemize*}
+\item $m=\pm1$.
+
+La distribuzione angolare del prodotto di decadimento \'e $\propto |{Y_1}^{\pm1}(\theta,\phi)|^2=(\frac{3}{8\pi})\sin^2{\theta}$
+
+\item $m=0$.
+
+La distribuzione angolare del prodotto di decadimento \'e $\propto |{Y_1}^{m=0}(\theta,\phi)|^2=(\frac{3}{4\pi})\cos^2{\theta}$
+\end{itemize*}
+
+
+\chapter{EM moments of nuclei}
+
+\section{EM interaction as a probe of distribution and motion of nucleons}
+
+\subsection{Characteristic dependence on distance of multipole moments}
+
+Electric (Magnetic) multipoles.
+\begin{itemize*}
+\item charge: monopole moment electric field $\propto\frac{1}{r^2}$. (Magnetic monopole not found)
+\item dipole: $\propto\frac{1}{r^3}$. (as E)
+\item Elettric field from second order or quadrupole moment: $\propto\frac{1}{r^4}$. (as E).
+
+\item \ldots
+
+\end{itemize*}
+
+\subsection{Parity selection rules}
+Each electromagnetic multipole has a parity determined by behavior of the multipole operator when $\vec{r}\to-\vec{r}$.
+
+The parity of electric multipole is $(-1)^L$: $L=0$ for monopole, $L=1$ for dipole, ecc.
+
+The parity of magnetic multipole is $(-1)^{L+1}$: $L=1$ for dipole, ecc.
+
+All odd parity static multipole must vanish.
+
+\section{Electrostatic energy}
+
+\begin{equation*}
+E^{el}=\sum_i^Ze\phi(\vec{x}_i)
+\end{equation*}
+
+\subsection{Multipole expansion}
+\begin{align*}
+E^{el}&=\sum_i^Ze[\phi(0)+(\phi_xx_i+\phi_yy_i+\phi_zz_i+)\\
+&+\frac{1}{2}(\phi_{xx}x_i^2+2\phi_{xy}y_ix_i+\ldots)]\\
+\phi(0)&=Ze=\int\rho(\vec{x})\,d^3x
+\end{align*}
+
+\subsection{Charge density}
+\begin{align*}
+&\rho(\vec{x})=\sum_i^Ae_iP_i(\vec{x})\\
+&P_i(\vec{x})=\int|\psiN{A}|^2\,d^3x_1\ldots\,d^3x_A
+\end{align*}
+
+\subsection{Magnetic dipole}
+Ho la carica elettrica del nucleo (L=0), il dipolo elettrico(L=1):
+
+Suppongo che il campo sia lungo z.
+\begin{align*}
+d_z=\sum_i^Ae_i\int z_it|\psiN{A}|^2\,d^3x_1\ldots\,d^3x_A
+\end{align*}
+
+Se la la funzione d'onda ha parit\'a definita il dipolo elettrico \'e nullo.
+
+Momento di Dipolo magnetico.
+
+Partendo da una spira percorsa da corrente arrivo al momento semiclassico $\mu=\frac{e\hbar}{2m}l$.
+
+Il momento di dipolo magnetico che osserviamo in un esperimento \'e la componente $\mu_z$ per stati con $l_z$ definito corrispondente al massimo valore possibile della proiezione del momento angolare lungo la direzione z ($m_z=+l$) del vettore 
+\begin{equation*}
+\vec{\mu}=\frac{e}{2m}\int\psi^*\vec{l}\psi\,d^3x
+\end{equation*}
+
+\begin{align*}
+&\frac{\vec{\mu}_I}{\mu_I}=\vec{I}g_I\\
+&\mu_I=g_l\frac{\scap{l}{I}}{I}+g_s\frac{\scap{s}{I}}{I}=Ig_I\\
+&\mu_I=\gamma_I\hbar I \quad\text{Rapporto giromagnetico}
+\end{align*}
+
+\subsection{Momento magnetico di dipolo: modello a shell.}
+
+We must evaluate $\mu=\mu_N(g_ll_z+g_ss_z)/\hbar$ when $j_z=j\hbar$: non posso lavorare direttamente con questa espressione perch\'e nel sistema in cui j ha un valore preciso ci\'o non\'e vero per $s_z$ e $l_z$.
+
+Riscrivo usando $l_z=j_z-s_z$ e prendo il valore di aspettazione
+\begin{align*}
+\mu&=[g_lj+(g_s-g_l)\frac{\exv{s_z}}{\hbar}]\mu_N\\
+\exv{s_z}&=\exv{\vec{j}\frac{\scap{j}{s}}{|\vec{j}|^2}}\\
+&=\frac{j}{2j(j+1)}[j(j+1)-l(l+1)+s(s+1)]\hbar&\intertext{$\vec{j}$ is the only meaningfull vector so the only surviving part of $\vec{s}$ is that along $\vec{j}$.}
+\end{align*}
+
+Vedi Schmidt lines.
+
+\subsection{Quadrupolo elettrico (L=2).}
+
+\begin{align*}
+\exv{3z^2-r^2}_{M_I=I}\\
+=0 \quad I=\frac{1}{2}
+\end{align*}
+
+Se $|\psi|^2$ \'e concentrato nel piano xy $Q\approx-\exv{r^2}$; Se $|\psi|^2$ \'e concentrato lungo z $Q\approx+2\exv{r^2}$.
+
+I nucleoni accoppiati che si muovono su orbite a sfericamente simmetriche: stimo il momento di quadrupolo considerando solo il nucleone di valenza 
+\begin{equation*}
+|eQ|=|e\int\psi^*(3z^2-r^2)\psi\,d^3x|\leq er_0A^{\frac{2}{3}}
+\end{equation*}
+
+La maggior parte dei nuclei ha $|eQ\approx0.06-0.5eb|$ (i nuclei deformati hanno momento di quadrupolo maggiore).
+
+\subsection{Momento magnetico di dipolo: modello a shell.}
+
+\begin{itemize*}
+
+\item Single-particle quadrupole moment fo an odd proton in a shell model state j:
+\begin{equation*}
+Q=-\frac{2j-1}{2(j+1)}\exv{r^2}
+\end{equation*}
+
+\item An uncharged neutron outside a filled subshell should have no quadrupole moment: experimentally they are smaller but not zero.
+
+\end{itemize*}
+
+\chapter{Sezione d'urto}
+ 
+ 
+ \begin{equation*}
+ \frac{d\sigma}{d\Omega}=\frac{\text{Events in $d\Omega(\theta,\phi)$ per unit time}}{d\Omega*(\text{Incident particles})*(\text{Target nuclei}/cm^2)}
+ \end{equation*}
+ 
+\subsection{Lagrangiana}
+Funzione di Lagrange in coordinate polari per il moto piano di una particella in campo di forze $U(r)$:
+
+$\mathcal{L}=\frac{m}{2}(\dot{r}^2+r^2\dot{\phi})-U(r)$.
+
+Equazione di Lagrange:
+
+$\frac{d}{dt}\frac{\partial L}{\partial \dot{q_i}}-\frac{\partial L}{\partial q_i}=0$.
+
+Coordinate cicliche:
+
+Coordinate generalizzate che non compaiono esplicitamente nella Langrangiana son dette cicliche.
+
+Impulso associato ad una coordinata generalizzata:
+
+$p_{q_i}=\frac{\partial L}{\partial \dot{q_i}}$
+
+
+\subsection{Campo centrale}
+
+Interazione fra 2 particelle $\leftrightarrow$ Deflessione di un particella di massa m da parte di campo di forze $U(r)$ posto nel centro di massa delle 2 particelle.
+
+Conservazione del momento angolare.
+
+L'impulso associato a $\phi$ , $p_{\phi}=mr^2\dot{\phi}=\frac{\partial L}{\partial \dot{\phi}}$, \'e un integrale del moto.
+
+Conservazione dell'energia.
+
+Da $E=\frac{m\dot{r}^2}{2}+\frac{L^2}{2mr^2}+U(r)$ ricavo
+\begin{equation*}
+dt=\frac{dr}{\dot{r}}=\frac{dr}{\sqrt{\frac{2}{m}[E-U(r)]-\frac{L^2}{m^2r^2}}}
+\end{equation*}
+($\int_{-\infty}^{r}$ determina implicitamente $r(t)$) , inoltre da $L=mr^2\dot{\phi}$, vedo che $d\phi=\frac{L}{mr^2}dt$ e allora moltiplico l'equazione implicita che lega t e la distanza dal centro per $\frac{L}{mr^2}$ e integro ottengo l'equazione della traiettoria: $\phi=\int\frac{\frac{L}{r^2}dr}{\sqrt{2m[E-U(r)]-\frac{L^2}{r^2}}}$.
+
+\subsection{Angolo di diffusione di particella in campo centrale}
+
+La traiettoria di una particella in un campo centrale \'e  simmetrica rispetto alla retta passante per il punto dell'orbita pi\'u vicino al centro: i due asintoti dell'orbita intersecano questa retta formando con essa angoli uguali che indico con $\phi_0$, mentre con $\chi$ l'angolo di deflessione della particella (massima deflessione se torna indietro):
+$\chi=|\pi-2\phi_0|$. 
+
+Con $OA=r_{\text{min}}$ riscrivo
+\begin{equation*}
+\phi_0=\int_{r_{\text{min}}}^{\infty}\frac{\frac{L}{r^2}dr}{\sqrt{2m[E-U(r)]-\frac{L^2}{r^2}}}
+\end{equation*}
+
+utilizzando la velocit\'a della particella a distanza infinita $v_{\infty}$ e il parametro d'impatto:
+\begin{align*}
+\rho=b\quad (E=\frac{m{v_{\infty}}^2}{2},\quad L=m\rho v_{\infty})\\
+\phi_0=\int_{r_{\text{min}}}^{\infty}\frac{\frac{\rho}{r^2}dr}{\sqrt{1-\frac{\rho^2}{r^2}-\frac{2U}{m{v_{\infty}}^2}}}
+\end{align*}
+
+
+
+Prendiamo un fascio di particelle con la stessa $v_{\infty}$:
+\begin{itemize*}
+\item $dN=\#\text{ di particelle diffuse fra }\chi\text{ e }\chi+d\chi$\\
+proporzionale a
+\item Densit\'a fascio incidente:\\
+ $n=\#\parbox{10cm}{ particelle passanti per unit\'a di tempo per unit\'a di superficie di una sezione traqsversale del fascio}$
+
+\item Sezione d'urto (differenziale)\\
+$d\sigma=\frac{dN}{n}$
+\end{itemize*}
+
+Relazione tra $\chi$ e $\rho$ biunivoca se $\chi$ \'e una funzione monotona decrescente di $\rho$.
+
+In questo caso,
+le particelle diffuse in $\chi$ e $\chi+d\chi$ sono quelle con parametro d'urto fra $\rho(\chi)$ e $\rho(\chi)+d\rho(\chi)$, quindi\\
+$dN=n*\text{ Superficie corona circolare di spessore }d\rho=n*2\pi\rho d\rho$ da cui $d\sigma=2\pi\rho d\rho$.
+
+\subsection{dipendenza di $d\sigma$ dall'angolo di diffusione} Scrivo:
+
+\begin{align*}
+d\sigma=2\pi\rho(\chi)|\underbrace{\frac{d\rho}{d\chi}}_{<0: \text{Usually}}| d\chi
+\end{align*}
+
+Spesso $d\sigma$ si riferisce all'elemento d'angolo solido compreso tra i coni d'apertura $\chi$ e $\chi+d\chi$:\\ $d\sigma=\frac{\rho(\chi)}{\sin{\chi}}|\frac{d\rho}{d\chi}|2\pi\sin{\chi}\chi$.
+
+
+\section{Diffusione, sezione d'urto: campo centrale.}
+
+Ritornando al problema della diffusione di un fascio di particelle non da parte di un centro di forza immobile, ma da parte di altre particelle inizialmente in quiete, la formula $d\sigma=2\pi\rho(\chi)|\frac{d\rho}{d\chi}| d\chi$ definisce la sezione d'urto in funzione dell'angolo di diffusione nel sistema CM.
+
+$n=$ target atoms per unit volume:
+
+$\frac{\rho}{A}N_{Avogadro}$, con $A=$ mass number of target (pure isotope).
+
+$\rho x=$ areal density of target $(g/{cm}^2)$.
+
+$\rho=$ mass density of target ($g/{cm}^2$).
+
+$nx=$ areal number density.
+
+$nx=$ areal number density (atoms/${cm}^2$):
+
+$=\frac{\rho}{A}xN_{Avogadro}$, con $x=$ thickness of target $(cm)$. 
+
+Barn:
+
+$1 barn=10^2 fm^2=10^{-24}cm^2$\index{Barn}
+
+\subsection{Relazioni sistema Lab ($m_2$ immobile) - sistema CM}
+Angoli: \lbt{\tan{\theta_1}=\frac{m_2\sin{\chi}}{m_1+m_2\cos{\chi}}}{\theta_2=\frac{\pi-\chi}{2}}\\
+Velocit\'a: \lbt{\vec{v_1}=\frac{m_2}{m_1+m_2}\vec{v}+\vec{V}}{\vec{v_2}=-\frac{m_1}{m_1+m_2}\vec{v}+\vec{V}}, con $\vec{V}=\frac{m_1\vec{v_1}+m_2\vec{v_2}}{m_1+m_2}$.
+
+\subsection{Interpretazione probabilistica}
+Probability for a projectile scattering off a target, $P=\frac{nAT\sigma}{A}=\sigma nT$ and $P(\theta,\phi)=\frac{d\sigma}{d\Omega}nT$.\\
+
+Esprimendo $\chi$ in funzione di $\theta_1$ ho la sezione d'urto per le particelle incidenti, esprimendo $\chi$ in funzione di $\theta_2$ ho la sezione d'urto per le particelle inizialmente in quiete.\\
+
+$N_{incident}=$ number of incident (beam) particles\\
+$N{events}=$ number of events (beam-target interactions)\\
+
+\subsection{Sezione d'urto microscopica}
+
+ Sia $dR_b(\Omega)$ il numero di particelle scatterate,  number of events (beam-target interactions), nell'angolo solido $d\Omega=\sin{\theta} d\theta d\phi$ per unit\'a di tempo,
+la \textbf{sezione d'urto differenziale} \'e data da:
+
+\begin{align*}
+d\sigma(\Omega)=\frac{dR_b}{I_aN_x}=\frac{1}{I_aN_x}*\mathcal{F}(\theta,\phi)*\frac{d\Omega}{4\pi}\\
+\frac{1}{4\pi}\int\mathcal{F}(\theta,\phi)d\Omega=R_b
+\end{align*} 
+
+\subsection{Sezioni d'urto parziali}
+
+$\sigma_{\text{el}}$, $\sigma_{\text{inel}}$, $\sigma_{\text{fis}}$ $\sigma_{TOT}=\sum_{canali}\sigma_{Parziali}$\\
+$N_{SC}=\frac{\hbar}{2iM}\int(\frac{\partial \psi_{SC}}{\partial }\psi)R^2\sin{\theta}d\theta d\phi$ con R grande.
+
+\lbt{\sigma_{sc,l}=\pi\lambdabar^2(2l+1)|1-\eta_l|^2}{\sigma_{r,l}=\pi\lambdabar^2(2l+1)(1-|\eta_l|^2)}\\
+
+\subsection{Macroscopic cross section}
+Probability a given reaction occurs per unit lenght
+$\Sigma[cm^{-1}]=n[\text{atoms}/cm^3]*\sigma[cm^2]$,
+effective area presented by all nuclei in 1 $cm^3$ of the target.
+\index{Macroscopic cross section}
+
+\subsection{Bersaglio sottile} (so that small fraction of incident particles actually interact): \index{Bersaglio sottile}
+
+P=Probabilit\'a che una particella venga rimossa dal fascio per unit\'a di lunghezza:
+
+P=(Numero particelle bersaglio per $cm^3$)$*\sigma=\sigma n=\sigma \frac{\rho}{A}xN_{Avogadro}$.
+
+Coefficiente di attenuazione del fascio: $I=I_0e^{-n\sigma z}=I_0e^{-\mu z}$.:
+
+$dN_a(z)=-PN_a(z)dz \Rightarrow N_a(z)=N_a^0e^{-\frac{z}{\Lambda_a}}$, posto $\Lambda_a=\frac{1}{n\sigma}$.
+
+$\sigma({cm}^2)=\frac{N_{events}}{N_{incident}nx}=\frac{N_{events}}{N_{incident}\rho N_{Avogadro}x}$ cio\'e:
+
+
+$\sigma_b=\frac{(\# \text{eventi in un canale di reazione}/\text{unit\'a di tempo}/\text{nucleo bersaglio})}{(\# \text{particelle incidenti}/\text{per unit\'a d'area}/\text{per unit\'a di tempo})}$.
+
+\subsection{Luminosit\'a.}
+The quantity that measures the ability of a particles accelerator to produce the required number of interaction.
+\begin{align*}
+\# \text{eventi per unit\'a di tempo}=\mathcal{L}\sigma:\\
+ \mathcal{L}=\frac{\text{\# incident particles}}{\text{Area}*\text{Time}}*(\text{\# target particles})\\
+ =\frac{\text{\# incident particles}}{\text{Time}}\frac{\text{\# target particles}}{\text{Area}}
+\end{align*}
+(Il tutto \'e omogeneo).
+
+Reazione inneascata da particella con momento angolare $l$: 
+
+$\sigma(\alpha)=\sum_{l=0}^\infty \sigma_l(\alpha)$ possibile solo per sezione d'urto integrata su $d\Omega$.
+
+
+
+\subsection{Hard Sphere}
+$b=a\sin{\phi_0}=a\sin{\frac{\pi-\chi}{2}}=a\cos{\frac{\chi}{2}}$\\Da ci\'o si ricava $d\sigma=\frac{\pi a^2}{2}\sin{\chi}d\chi=\frac{a^2}{4}d\Omega$ cio\'e la diffusione \'e isotropa nel sistema c; integrando ho $\sigma=\pi a^2$
+
+\section{Sezione d'urto di Rutherford}
+
+$U(r)=\frac{\alpha}{r}$:
+
+$\alpha$ che compare nella formula di Rutherford non \'e la costante di struttura fine:
+$F=\frac{\alpha \hbar c zZ}{r^2}$.
+
+\subsection{Small deflection angle}
+(region of closest approach: $\Delta x\approx 2b$, $\Delta t\approx\frac{2b}{v}$)\\
+The momentum transfer is nearly perpendicular to the incident momentum: $\Delta p_{\perp}\approx \overline{F_{\perp}}\Delta t$.
+
+\subsection{CEM of a moving charge ($\vec{R}=(X-vt,Y,Z)$)}
+Electric field along direction of motion:
+
+$E_{//}=\frac{e}{4\pi\epsilon_0R^2}(1-\frac{v^2}{c^2})$.
+
+Electric field perpendicular to the direction of motion: $E_{\perp}=\frac{e}{4\pi\epsilon_0R^2}\frac{1}{(1-\frac{v^2}{c^2})^{\frac{1}{2}}}$.
+
+\subsection{Relativistic correction to EM strenght}
+
+In the frame of moving particle the EF in trasverse direction is multiplied by $\gamma$ and in compressed by same factor into a smaller region along the direction of particle motion:
+
+$\Delta p_{\perp}\approx\frac{\alpha zZ[\gamma]}{b^2}\frac{2b}{v[\gamma]}$.
+
+\subsection{Traiettoria particella $\alpha (ze)$ scatterata da un nucleo $(Ze)$}
+$\frac{1}{r}=\frac{1}{b}sin{\phi}+\frac{(ze)(Ze)}{8 \pi \epsilon_0Kb^2}(cos{\phi}-1)$, $K$ energia cinetica della particella $\alpha$ espressa in $eV$ quind $b=\frac{(ze)(Ze)}{8 \pi \epsilon_0K}cot{\frac{\theta}{2}}$.
+
+ Frazione di particelle con parametro minore di $b_0$.
+ 
+ $f_{b<b_0}=f_{\theta>\theta_0}=\frac{\rho N_A}{M}\pi b_0^2t$.
+
+\subsection{Differential cross section}
+
+$\frac{d\sigma}{d\Omega}=\frac{\text{Events into solid angle $d\Omega$ at $(\theta,\phi)$ per unit time}}{d\Omega*(\text{Incident particles})*(\text{Target nuclei} per cm^2)}$.
+
+Differential Probability of scattering by an angle $\theta$:
+
+For each nucleus the probability of scattering by an angle between $\theta$ and $\theta+d\theta$ is equal to the probability of the incident particle having an impact parameter between $b$ and $b+db$:
+
+$\frac{dP}{d\theta}d\theta=\frac{dP}{db}db=2\pi bdbN_x=(\text{area per nucleus})*(\text{nuclei per }cm^2)$
+
+Probabilit\'a che una particella $\alpha$ scatterata incida su un rilevatore di area $A_d$ ad angolo $\theta$:
+
+Connection between $\frac{d\sigma}{d\Omega}$ and $\frac{dP}{d\theta}$\\
+$N_x\frac{d\sigma}{d\Omega}d\Omega=N_x\frac{d\sigma}{d\Omega}2\pi\sin{\theta}d\theta=\frac{dP}{d\theta}d\theta$.
+
+Scattering angle (small angle):
+
+$\theta\approx\frac{\Delta p_{\perp}}{p}=\frac{2zZ\alpha}{pvb}$ (relativistic) which agrees with non-relativistic calculation $\frac{\theta}{2}\approx\tan{\frac{\theta}{2}}=\frac{zZ\alpha}{2bE_k}=\frac{zZ\alpha}{pvb}$
+
+\subsection{Semplificazioni}
+\begin{enumerate*}
+\item Solo repulsione Coulombiana
+\item Particelle puntiformi
+\item Ignoro effetto elettroni atomici
+\item Il nucleo non rincula
+\item Effetti R e QM sono ignorati
+\end{enumerate*}
+
+ Ponendo $U=\frac{\alpha}{r}$ in $\phi_0=\int_{r_{\text{min}}}^{\infty}\frac{\frac{b}{r^2}dr}{\sqrt{1-\frac{b^2}{r^2}-\frac{2U}{m{v_{\infty}}^2}}}$ e ricordando che$L=mbv_{\infty}$ ottengo $\phi_0=\arccos{\frac{\frac{\alpha}{m{v_{\infty}}^2b}}{\sqrt{1+(\frac{\alpha}{m{v_{\infty}}^2b})^2}}}$ da cui $b^2=\frac{\alpha^2}{m^2{v_{\infty}}^4}\tan^2{\phi_0}$ ossia $b^2=\frac{\alpha^2}{m^2{v_{\infty}}^4}\cot^2{\frac{\chi}{2}}$.
+ 
+Derivando l'espressione per $b^2$ rispetto a $\chi$:
+
+($2b(\chi)\frac{db}{d\chi}=\frac{2\alpha^2}{m^2{v_{\infty}}^4}\cot{\frac{\chi}{2}}(-\frac{1}{2}\frac{1}{\sin^2{\frac{\chi}{2}}})$) e sostituendo in $d\sigma=\frac{b(\chi)}{\sin{\chi}}|\frac{db}{d\chi}|d\Omega$ ottengo la formula di Rutherford:
+
+$\frac{d\sigma}{d\Omega}=(\frac{\alpha}{2m{v_{\infty}}^2})^2\frac{1}{\sin^4{\frac{\chi}{2}}}$ per un sistema di riferimento in cui il centro di massa delle particelle \'e a riposo.
+
+La sezione d'urto per le particelle inizialmente in quiete, $d\sigma_2$, si ottiene con la sostituzione $\chi\rightarrow\pi-2\theta_2$ in $d\sigma$, per le particelle incidente \'e una funzione complicata.
+
+ \subsection{$m_2\gg m_1$}
+Nel caso la massa $m_2$ del bersaglio sia grande rispetto alla massa $m_1$ del proiettile si pu\'o porre \lbt{\chi\approx m_1}{m\approx m_1} quindi:
+
+$d\sigma_1=(\frac{\alpha}{4E_1})^2\frac{d\Omega_1}{\sin^4{\frac{\theta_1}{2}}}$
+
+\subsection{$m_1=m_2$}
+$\chi=2\theta_1$:
+
+$d\sigma_1=(\frac{\alpha}{E_1})^2\frac{\cos{\theta_1}}{\sin^4{\theta_1}}d\Omega_1$.
+
+Per particelle identiche non ha senso la distinzione in 2 gruppi.
+
+sommo $d\sigma_1$ e $d\sigma_2$ e ottengo la sezione d'urto per le 2 particelle:
+
+$d\sigma=(\frac{\alpha}{E_1})^2(\frac{1}{\sin^4{\theta}}+\frac{1}{\cos^4{\theta}})\cos{\theta}d\Omega$.
+
+
+
+\subsection{Sezione d'urto differenziale} 
+
+\begin{equation*}
+\frac{\Delta \sigma}{\Delta\Omega}=(\frac{(ze)(Ze)}{4K})^2(\frac{1}{4\pi\epsilon_0})^2\frac{1}{\sin^{4}{\frac{\theta}{2}}}
+\end{equation*}
+
+\subsection{Sezione d'urto di Mott (velocit\'a relativistiche)}
+\begin{align*}
+(\frac{d\sigma}{d\Omega})_{Mott}=(\frac{d\sigma}{d\Omega})_{Ruth.}(1-\beta^2\sin^2{\frac{\theta}{2}})\\
+\lim_{v\rightarrow c}(\frac{d\sigma}{d\Omega})_{Mott}=(\frac{d\sigma}{d\Omega})_{Ruth.}\cos^2{\frac{\theta}{2}}
+\end{align*}
+ 
+ \subsection{Onde parziali}
+ 
+\begin{align*}
+ \psi_{Inc}=A\exp{ikz}=A\sumzi{l}j_l(kr)P_l(\cos{\theta})&\intertext{valida per potenziale scatteratore centrale}\\
+ j_l(kr)\abc{kr\gg l}\frac{\sin{kr-\frac{1}{2}l\pi}}{kr}\\
+ =i\frac{\exp{-i(kr-\frac{l\pi}{2})}-\exp{i(kr-\frac{l\pi}{2})}}{2kr}
+\end{align*}
+ 
+ \subsection{Lowest partial waves}
+ particella interagisce con parametro d'impatto b:
+ \begin{equation*}
+ b=\frac{l\hbar}{p}=l\frac{\lambda}{2\pi}=l\lambdabar
+ \end{equation*}
+ Se il momento semiclassico  sta in $[0,1\,\hbar]$ la particella interagisce con parametro d'urto che sta in $0,\lambdabar$.
+ \begin{align*}
+ \sigma_T=\sum_{l=0}^{R/\lambdabar}(2l+1)\pi\lambdabar^2=\pi(R+\lambdabar)^2&\intertext{sommo l'area di anelli circolari}\\
+ b_{max}=R_1+R_2=R
+ \end{align*}
+ 
+ \subsection{Sezione d'urto di scattering}
+ \begin{align*}
+ &\psi=\psi_{inc}+\psi_{sca}=\frac{A}{2kr}\sumzi{l}i^{l+1}(2l+1)*\\
+ &*[\exp{-i(kr-\frac{l\pi}{2})}-\exp{i(kr-\frac{l\pi}{2})}]P_l(\cos{\theta})\\
+ &d\sigma\,=\frac{J_{SC}(r^2\,d\Omega)}{J_{Inc}}\\
+ &\sigma_{SC}=\sumzi{l}\pi\lambdabar^2(2l+1)|1-\eta_l|^2\\
+ &=\sumzi{l}4\pi\lambdabar^2(2l+1)\sin{\delta_l}^2&\intertext{l'ultima uguaglianza caratterizza lo scattering elastico:}\\
+ &\eta_l=\exp{2i\delta_l}
+ \end{align*}
+ 
+\subsection{Inelastic process: reaction cross section.}
+Rate at which particle are disappearing from channel with wavenumber k: $|J_{Inc}|-|J_{Out}|^2$.
+\begin{equation*}
+\sigma_r=\sumzi{l}\pi\lambdabar^2(2l+1)(1-|\eta_l|^2)
+\end{equation*}
+ 
+\subsection{Espressione asintotica: Onda piana + onda sferica}
+
+\begin{align*}
+&\lim_{\text{r grande}}\braket{\vec{x}|\psi^+}\rightarrow\braket{\vec{x}|\vec{k}}-\frac{1}{4\pi}\frac{2m}{\hbar^2}\frac{e^{ikr}}{r}*\\
+&\int d^3x'e^{-i\vec{k'}\vec{x'}}V(\vec{x'})\braket{\vec{x'}|\psi^{(+)}}=\\
+&=\frac{1}{(2\pi)^{\frac{3}{2}}}(\pw{k}{x}+\underbrace{\osw{k}{r}f(\vec{k'},\vec{k})}_{\psi_{Scat}})&\intertext{\'E la sovrapposizione dell'onda iniziale che si propaga in direzione $\vec{k}$ pi\'u un'onda sferica uscente con ampiezza:}\\
+&f(\vec{k},\vec{k'})=-\frac{1}{4\pi}(2\pi)^3\frac{2m}{\hbar^2}\int d^3x'\frac{\pw{k'}{x'}}{(2\pi)^{\frac{3}{2}}}V(\vec{x'})\braket{\vec{x'}|\psi^{(+)}}\\
+&=-\frac{1}{4\pi}(2\pi)^3\frac{2m}{\hbar^2}\braket{\vec{k'}|V|\psi^{(+)}}
+\end{align*}
+
+ \subsection{Corrente di densit\'a di probabilit\'a}
+\begin{align*}
+\exv{J^{sc}}_r=\frac{\hbar k}{m}\frac{1}{r^2}|f(\theta,\phi)|^2\\
+\exv{J^{sc}}_{\theta}=\frac{\hbar}{m}\frac{1}{r^3}\Re{[\frac{1}{i}f^*\frac{\partial f}{\partial \theta}]}\\
+\exv{J^{sc}}_{\phi}=\frac{\hbar}{m}\frac{1}{r^3\sin{\theta}}\Re{[\frac{1}{i}f^*\frac{\partial f}{\partial \phi}]}
+\end{align*}
+ 
+ \subsection{Approx di Bohr}
+ Approssimazione di Born:
+ \begin{equation*}
+ \braket{\vec{k'}|V|\psi^{(+)}}\rightarrow\braket{\vec{k'}|V|\vec{k}}
+ \end{equation*}
+
+ \begin{align*}
+J_r^{sc}(\Omega)=\hat{n}\cdot\vec{J^{sc}}\\
+=\frac{\hbar}{m} \frac{1}{(2\pi\hbar)^3}\Im{[\frac{{f_E}^*(\theta,\phi)}{r}\frac{i}{\hbar}p\frac{f_E(\theta,\phi)}{r}]}+o(\frac{1}{r^2})\\
+=\lim_{r\rightarrow\infty}\frac{1}{(2\pi\hbar)^3}\frac{|f_E(\theta,\phi)|^2}{r^2}\frac{p}{m}
+ \end{align*}
+ 
+ \subsection{Approx. grande distanza}
+ \begin{align*}
+  j_r\approx\frac{1}{r^2}\quad j_{\theta}\approx\frac{1}{r^3}&\intertext{Per r grande la corrente \'e diretta radialmente. Il numero di particelle che attraversano la superficie $dS=r^2d\Omega$ posta a distanza r dal centro scatteratore \'e dato dal flusso attraverso la superficie:}\\
+dN=j_rdS=\frac{v}{r^2}|f(\theta)|^2r^2d\Omega=v|f(\theta)|^2d\Omega\\
+d\sigma=\frac{|A|^2|F(\theta)|^2\frac{\hbar k}{m}d\Omega}{\underbrace{\frac{\hbar k}{m}|A|^2}_{J_i}\underbrace{N_b}_{\# \text{nuclei bersaglio}=1}}
+\end{align*}
+
+Interpretazione:
+\begin{equation*}
+\scap{j_i}{d\sigma}=Nd\Omega=\vec{j}\cdot\hat{e_r}dA
+\end{equation*}
+Finalmente ho 
+\begin{equation*}
+\frac{d\sigma}{d\Omega}=\frac{1}{\phi_{inc}}\frac{dN}{d\Omega}
+\end{equation*}
+
+Se l'effetto del centro diffusore non \'e troppo intenso si ha 
+\begin{equation*}
+\braket{\vec{x}|\psi^+}\approx\braket{\vec{x}|\phi}
+\end{equation*}
+ in intorno del centro diffusore $\vec{x}\approx 0$:
+ \begin{equation*}
+ |\frac{2m}{\hbar^2}\frac{1}{4\pi}\int d^3x'\frac{e^{ikr'}}{r'}V(\vec{x'})|\ll1
+\end{equation*}
+e quindi uso l'approssimazione di Born:
+\begin{equation*}
+\braket{\vec{x'}|\psi^+}\rightarrow \braket{\vec{x'}|\phi}=A(=\frac{1}{(2\pi)^\frac{3}{2}})\pw{k'}{x'}
+\end{equation*}
+ 
+Ampiezza di scattering al primo'ordine.
+
+Sostituendo l'onda piana nell'espressione ho:
+\begin{align*}
+f^{(1)}(\vec{k},\vec{k'})=-\frac{1}{4\pi}\frac{2m}{\hbar^2}\int d^3x'e^{i(\vec{k}-\vec{k'})\cdot\vec{x'}}V(\vec{x'})&\intertext{L'ampiezza di scattering al primo ordine \'e la trasformata di Fourier del potenziale rispetto a}\\ \vec{q}=\vec{k}-\vec{k'}(=2k\sin{\frac{\theta}{2})}&\intertext{termine fra parentesi per scattering elastico}
+\end{align*}
+
+L'approssimazione di Born tende a diventare migliore a alte energie.
+
+\textbf{Potenziale sfericamente simmetrico}\\
+Per un potenziale sfericamente simmetrico $f^{(1)}(\vec{k},\vec{k'})$ \'e funzione di  $|\vec{k}-\vec{k'}|=2k\sin{\frac{\theta}{2}}$: esplicitando ho 
+\begin{equation*}
+f^{(1)}(\theta)=-\frac{2m}{\hbar^2}\frac{1}{q}\int_0^{\infty}rV(r)\sin{(qr)}dr
+\end{equation*}
+
+Osservazioni:
+\begin{itemize*}
+\item $f(\theta)$dipende solo da $q$ quindi anche $\frac{d\sigma}{d\Omega}$: $f(\theta)$ dipende dall'energia e da $\theta$ attraverso $2k^2(1-\cos{\theta})$.
+\item $f(\theta)$ \'e reale
+\item $\frac{d\sigma}{d\Omega}$ indipendente dal segno di $V(r)$.
+\item  Pek k "piccolo":
+\begin{align*}
+f^{(1)}(\theta)=-\frac{1}{4\pi}\frac{2m}{\hbar^2}\int V(r)d^3x&\intertext{diventa indipendente da $\theta$}\\
+(App.: F(\vec{q}=0)=\sqrt{(\frac{d\sigma}{d\Omega})_{\text{Ruth.}}}\frac{4\pi\hbar^2c^2}{E}\int\rho d^3r
+\end{align*}
+
+\item $f(\theta)$ \'e piccolo per q grande per le oscillazioni del $\sin{qr}$.
+\end{itemize*}
+Infine 
+\begin{equation*}
+\frac{d\sigma}{d\Omega}=|f(\theta,\phi)|^2
+\end{equation*}
+
+\subsection{Diffusione risonte: formula di Breit-Wigner.}
+Ampiezze di diffusione:
+
+Se $\sigma_l$ ha un picco allora passa per $\delta_l\approx \frac{\pi}{2} (\frac{3}{2}\pi, \ldots)$ e quindi $\cot{\delta_l}$ passa per 0 decrescendo. Assumendo che $\cot{\delta_l}$ vari lentamente in prossimit\'a di una risonanza $E\approx E_{res}$ sviluppiamo nel modo seguente: 
+\begin{equation*}
+\cot{\delta_l}=\underbrace{\cot{\delta_l}|_{E=E_{res}}}_{0}-c(E-E_{res})+o((E-E_{res})^2)
+\end{equation*}
+e
+\begin{align*}
+&f_l=\frac{1}{k\cot{\delta_l}-ik}=\frac{1}{k}\frac{1}{[-c(E-E_{res})-1]}\\
+&=-\frac{\frac{\Gamma}{2}}{k[(E-E_{res})+\frac{i\Gamma}{2}]}\\
+&\frac{d(\cot{\delta_l})}{dE}|_{E=E_{res}}=-c=-\frac{\Gamma}{2} &\intertext{$\Gamma$ \'e molto piccolo se $\cot{\delta_l}$ varia rapidamente}\\
+\end{align*}
+
+Formula per la risonanza ad un livello (Breit-Wigner):
+Se una risonanza semplice domina la sezione d'urto dell'l-esima onda parziale ottengo la formula di risonanza ad un livello:
+\begin{align*}
+&\sigma_l=\frac{4\pi}{k^2}\frac{(2l+1)(\frac{\Gamma}{2})^2}{(E-E_r)^2+\frac{\Gamma^2}{4}}&\intertext{\'e lecito considerare $\Gamma$ come larghezza a met\'a altezza purch\'e la risonanza sia sufficientemente stretta da poter ignorare la variazione di $\frac{1}{k^2}$}\\
+&f(\theta)=\sum_{l=0}^{+\infty}(2l+1)f_l(k)P_l(\cos{\theta})\\
+&=\sum_{l=0}^{+\infty}(2l+1)\frac{s_l-1}{2ik}P_l(\cos{\theta})&\intertext{ e osservando che}\\
+&|\frac{1}{2i}[e^{2i\delta_l(k)}-1]=\frac{1}{\cot{\delta_l}-1}|&\intertext{\'e massimo per $\delta_l=\frac{\pi}{2}+n\pi$, quando questo accade dico che ho una risonanza nella l-esima onda parziale. Espando $\cot{\delta_l}$ per $E\approx E_l$:}\\
+&\cot{\delta_l}=\underbrace{\cot{\delta_l}|_{E=E_r}}_{0}-c(E-E_r)+o((E-E_r)^2)\\
+&f_l=\frac{e^{2i\delta_l(k)}-1}{2ik}=\frac{1}{k\cot{\delta_l}-ik}=\frac{1}{k}\frac{1}{[-c(E-E_r)-i]}\\
+&=-\frac{\frac{\Gamma}{2}}{k[(E-E_r)+\frac{i\Gamma}{2}]}\\
+&\frac{d(\cot{\delta_l})}{dE}|_{E=E_r}=-c=-\frac{2}{\Gamma}&\intertext{definisce $\Gamma$. $\Gamma$ \'e piccolo se $\cot{\delta_l}$ varia rapidamente in intorno di $E_r$}
+\end{align*}
+
+
+ 
+ \chapter{Isospin}
+ \section{Funzione d'onda di un sistema di due nucleoni e stati a due corpi possibili.}
+\subsection{Separazione variabili: relazione fra T S L}
+ Separo le variabili spaziali, di spin e di isospin  
+\begin{equation*}
+\Psi=\Phi(r_1,r_2)\chi(\sigma_1,\sigma_2)\Theta(\tau_1,\tau_2)
+\end{equation*}
+per scambio di particelle $\Theta(\tau_1,\tau_2)$  \'e simmetrica  se $T=1$, antisimmetrica se $T=0$:
+
+\begin{align*}
+P_{12}&=-1=\underbrace{P_r}_{\text{Majorana}}\overbrace{P_{\sigma}}^{\text{Bartlet}}\underbrace{P_{\tau}}_{\text{- Heisenberg}}\\
+&=(-)^l(-)^{S+1}(-)^{T+1}&\intertext{quindi $l+S+T$ \'e dispari.}
+\end{align*}
+
+\subsection{Invariance vs indipendence}
+Isospin invariance does not imply isospin indipendence:
+per un sistema $\ket{\Pproton}$, $\ket{\Pneutron}$ ho uno stato legato per $T=0$ ma non $T=1$
+$\vec{T}^2=\vec{t_1}^2+2\vec{t_1}\cdot\vec{t_2}+\vec{t_2}^2$: $\vec{t_1}\cdot\vec{t_2}$ distingue fra casi con $T=1$ o $T=0$:
+
+$\braket{T|\vec{t_1}\cdot\vec{t_2}|T}=\left\{\begin{array}{c}-3 \text{ $T=0$}\\1\text{ $T=1$}\end{array}\right.$.
+
+In notazione spettroscopica $^{2S+1}l_J$:
+
+$\left\{\begin{array}{lcr}I=1 \text{(pp,pn,nn)}&:&^1S_0, ^3P_{0,1,2}, ^1D_2, ^3F_{2,3,4},\ldots\\I=0 \text{pn}&:&3^S_1, ^1P_1, ^3D_{1,2,3}, ^1F_3, \ldots\end{array}\right.$
+
+Isospin invariance of the strong interaction implies that it should not depend on the isospin projection, so that the systems p-p and n-n should have similar scattering behavior. For the p-n system only the symmetric component with isospin 1 should act the same, whereas the antisymmetric component with isospin 0 may have totally different scattering properties.
+
+
+\subsection{Composizione di Isospin: Scattering}
+\begin{itemize*}
+\item \Ppi-N scattering:
+
+$T=1\otimes\frac{1}{2}$ quindi $I=\frac{1}{2},\frac{3}{2}$.
+
+Each value of isospin that is possible provides an independent matrix element:
+\begin{align*}
+p\Ppiplus=\ket{\frac{3}{2},\frac{3}{2}}\\
+p\Ppizero=\sqrt{\frac{2}{3}}\ket{\frac{3}{2},\frac{1}{2}}-\sqrt{\frac{1}{3}}\ket{\frac{1}{2},\frac{1}{2}}
+\end{align*}
+Thus 
+\begin{align*}
+\sigma(\Ppiplus p\rightarrow\Ppiplus p)=|m_{\frac{3}{2}}|^2\\
+\sigma(\Ppiplus n\rightarrow\Ppiplus n)=|\frac{1}{3}m_{\frac{3}{2}}+\frac{2}{3}m_{\frac{1}{2}}|^2\\
+\sigma(\Ppiminus p\rightarrow\Ppizero n)=|\frac{\sqrt{2}}{3}m_{\frac{3}{2}}-\frac{\sqrt{2}}{3}m_{\frac{1}{2}}|^2
+\end{align*}
+
+\end{itemize*}
+ 
+ \chapter{Forma e dimensione del nucleo}
+ 
+Introduco vari metodi per stimare la dimensione del nucleo:
+
+La legge $R=r_0A^{\frac{1}{3}} con r_0\approx1.2-1.25 fm$ \'e sempre verificata.
+
+\section{Dimensione:approx. nucleo sferico}
+$\rho=\frac{A}{V}\approx0.17 \frac{\text{Nucleoni}}{fm^3}$ (circa costante), da cui ricavo:
+
+$R=r_0*A^{\frac{1}{3}}$, con $r_0\approx1.2 fm$.
+
+\subsection{Scattering di neutroni}
+Energia $10-20 MeV$:
+
+approssimo il nucleo con un disco opaco $\sigma\approx2\pi R^2$.
+
+Diffraction Scattering of neutron:
+
+Per scattering su un disco opaco di raggio R ho$\frac{d\sigma}{d\omega}=\frac{4\pi^2R^2}{\sin^2{\theta}}J_1^2(\frac{R\sin{\theta}}{\lambdabar})$: $J_1(x)\abc{x\text{ grande}}(\frac{2}{\pi x})^{\frac{1}{2}}\sin{x-\frac{\pi}{4}}$:
+
+the cross section has the first minimum for $\sin{\theta}\approx0.61*2\pi\frac{\lambdabar}{R}$.
+
+
+\section{Atomo idrogenoide}
+
+\subsection{Tempo tipico}
+ $\tau\approx \frac{2\pi\hbar^3}{m_ee^4}\approx1.5*10^{-16} s$
+ 
+\subsection{Livelli energetici}
+
+\begin{align*}
+&\braket{n|H|n}=-\frac{E_{\text{Ryd}}}{n^2}Z^2\\ &E_{Ryd}=\frac{1}{(4\pi\epsilon_0)^2}\frac{me^4}{2\hbar^2}=\frac{1}{2}\alpha^2mc^2\approx13.6eV\\
+&m=\frac{m_eM_P}{m_e+M_P}
+\end{align*}
+
+\subsection{Dimensioni}
+
+\begin{align*}
+&r_B=(4\pi\epsilon_0 \text{ :SI})\frac{\hbar^2}{me^2}\approx0.529 &\angstrom (=5.29 \cdot10^{4} fm)\\ &\exp{r}=(\frac{r_B}{2Z}[3n^2-l(l+1)])\\ &\exv{r^2}=(\frac{r_B^2n^2}{2Z^2})[5n^2+1-3l(l+1)]\\ &\exv{\frac{1}{r}}=\frac{Z}{nr_b}
+\end{align*}
+
+\subsection{Autofunzioni dell'atomo idrogenoide}
+
+\begin{enumerate*}
+\item Livello $n=1$.
+
+Funzioni radiali:
+
+$R_{1,0}=2\rho^\frac{3}{2}e^{-\rho}$.
+
+Armoniche sferiche:
+$Y_{00}=\frac{1}{\sqrt{4\pi}}$.
+
+\item $n=2$.
+
+Funzioni radiali:
+
+\begin{align*}
+&R_{2,0}=\frac{1}{\sqrt{2r_b^3}}(1-\frac{\rho}{2})e^{\frac{\rho}{2}}\\
+&R_{2,1}=\frac{1}{\sqrt{24r_b^3}}\rho e^{\frac{\rho}{2}}
+\end{align*}
+
+Armoniche sferiche:
+\begin{align*}
+&Y_{00} \\
+&Y_{10}=\frac{1}{2}\sqrt{\frac{3}{\pi}}\cos{\theta}\\
+&Y_{1\pm1}=\mp\frac{1}{2}\sqrt{\frac{3}{2\pi}}\sin{\theta}e^{\pm i\phi}
+\end{align*}
+
+\item $n=3$.
+
+Funzioni radiali:
+
+\begin{align*}
+&R_{30}=\frac{2}{\sqrt{27r_b^3}}[1-\frac{2}{3}\rho+\frac{2}{27}\rho^2]e^{-\frac{\rho}{3}}\\
+&R_{31}=\frac{8}{27\sqrt{6r_b^3}}\rho [1-\frac{1}{6}\rho]e^{-\frac{\rho}{3}}\\
+&R_{32}=\frac{4}{81\sqrt{30r_b^3}}\rho^2e^{-\frac{\rho}{3}}
+\end{align*}
+
+Armoniche sferiche:
+\begin{align*}
+&Y_{00}\\
+&Y_{10}, Y_{1\pm1}\\
+&Y_{20}=\frac{1}{4}\sqrt{\frac{5}{\pi}}(2\cos^2{\theta}-\sin^2{\theta})\\
+&Y_{2\pm1}=\mp\frac{1}{2}\sqrt{\frac{15}{2\pi}}\cos{\theta}\sin{\theta}\exp{\pm i\phi }\\
+&Y_{2\pm2}=\frac{1}{4}\sqrt{\frac{15}{2\pi}}\sin^2{\theta}\exp{\pm2i\phi}
+\end{align*}
+\end{enumerate*}
+
+
+
+
+\section{Nucleo non-puntiforme: effetto primo ordine sui livelli elettronici}
+
+
+\subsection{Operatori differenziali}
+
+Gradiente in coordinate radiali.
+
+\begin{align*}
+\nabla f=\frac{\partial f}{\partial r}\hat{r}+\frac{1}{r}\frac{\partial f}{\partial \theta}\hat{\theta}+\frac{1}{r\sin{\theta}}\frac{\partial f}{\partial \phi}\hat{\phi}
+\end{align*}
+
+Divergenza in coordinate radiali.
+
+\begin{align*}
+\nabla\cdot\vec{A}=\frac{1}{r^2}\frac{\partial}{\partial r}(r^2A_r)+\frac{1}{r\sin{\theta}}\frac{\partial }{\partial \theta}(\sin{\theta}A_{\theta})+\frac{1}{r\sin{\theta}}\frac{\partial A_{\phi}}{\partial \phi}
+\end{align*}
+
+Rotore in coordinate radiali.
+
+\begin{align*}
+\nabla\wedge\vec{A}=\frac{1}{r\sin{\theta}}(\frac{\partial}{\partial \theta}(A_{\phi}\sin{\theta})-\frac{\partial A_{\theta}}{\partial \phi})\hat{r}+\frac{1}{r}(\frac{1}{\sin{\theta}}\frac{\partial A_r}{\partial \phi}-\frac{\partial}{\partial r}(rA_{\phi}))\hat{\theta}+\frac{1}{r}(\frac{\partial}{\partial r}(rA_{\theta})-\frac{\partial A_r}{\partial \theta})\hat{\phi}
+\end{align*}
+
+Laplaciano in coordinate radiali.
+
+\begin{align*}
+\nabla^2f=\frac{1}{r^2}\frac{\partial}{\partial r}(r^2\frac{\partial f}{\partial r})+\frac{1}{r^2\sin{\theta}}\frac{\partial}{\partial \theta}(\sin{\theta}\frac{\partial f}{\partial \theta})+\frac{1}{r^2\sin^2{\theta}}\frac{\partial^2f}{\partial \phi^2}=\\
+=(\frac{\partial^2}{\partial r^2}+\frac{2}{r}\frac{\partial}{\partial r})f+\frac{1}{r^2\sin{\theta}}\frac{\partial}{\partial\theta}(\sin{\theta}\frac{\partial}{\partial \theta})f+\frac{1}{r^2\sin^2{\theta}}\frac{\partial^2}{\partial \phi^2}f
+\end{align*}
+
+
+\subsection{Correzione al potenziale Coulombiano per estensine finita del nucleo}
+
+Determino l'energia potenziale V(r) cui sono soggetti gli elettroni atomici per effetto del campo Coulombiano di un nucleo con estensione finita.
+
+$\widetilde{V}(r)=-e\phi(r)=$\lbt{-\frac{1}{2}\frac{1}{4\pi\epsilon_0}\frac{Ze^2}{R}(3-\frac{r^2}{R^2}) \text{ per } r\leq R}{
+-\frac{Ze^2}{4\pi\epsilon_0}\frac{1}{r} \text{ per } r>R}.
+
+Considero $\Delta V=\widetilde{V}-V$ una perturbazione dell'hamiltoniana $H_{\text{puntiforme}}$:
+
+$\widetilde{H}=\frac{p^2}{2m}+\widetilde{V}=H_{\text{puntiforme}}+\Delta V$.
+
+Calcolo la correzione ai livelli energetici al prim'ordine:
+
+\begin{align*}
+\ket{\widetilde{\psi}}\approx\ket{\psi}
+\Delta E_n=|\widetilde{E_n}-E_n|=\braket{\psi_n|\Delta V|\psi_n}\ll E_n
+\end{align*}
+
+e in particolare, approssimando $\exp{-\frac{r}{a_b}}\approx1$ sul nucleo:
+
+$\Delta E_1\approx4(\frac{Z}{r_b})^3\int_0^R[\frac{1}{r}-\frac{3}{2R}+\frac{1}{2}\frac{r^2}{R^3}]r^2dr\approx \frac{4}{5}E_{\text{RYD}}Z^4(\frac{R}{r_b})^2$.
+
+La correzione \'e dell'ordine ($|\frac{\Delta E_1}{E_1}|\sim10^{-5}$) e non esistono atomi con nucleo puntiforme: cerco di metodo pratico.
+
+\section{Shift isotopico}
+
+\subsection{Transizioni $2p\rightarrow1s$}
+
+Lo shift isotopico per transizioni elettroniche guscio K (pi\'u interno): $2p\rightarrow1s$.
+
+K X-ray isotope shift: $E_K(A)-E_K(A')$, A,A' isotopi.
+
+Lo shift isotopico si riduce alla differenza fra la correzione al primo ordine perturbativo (dovuta all'estensione fisica del nucleo) di $A'$ e $A$:
+
+\begin{align*}
+E_K(A)-E_K(A')=E_{2p}(A)-E_{1s}(A)-E_{2p}(A')+E_{1s}(A')\\
+=\Delta E(A')-\Delta E(A)=\frac{4}{5}E_{\text{RYD}}Z^4(\frac{r_0}{r_b})^2(A'^{\frac{2}{3}}-A^{\frac{2}{3}})
+\end{align*}
+
+
+L'onda p \'e dispari quindi piccola in intorno del nucleo, il contributo all'energia del livello fondamentale del nucleo "puntiforme" \'e identico per $A$ e $A'$ (stesso Z)e si annulla.
+
+Sperimentalmente trovo la differenza $E_K(A)-E_K(A')$ (differenza tra energia dei fotoni emessi in transizione elettroniche fra i livelli pi\'u interni di un nucleo $^A_ZX_N$ e $^{A'}_ZX_N'$) e dal confronto con $\frac{4}{5}\ER Z^4(\frac{r_0}{r_B})^2(A^{\frac{2}{3}}-A'^{\frac{2}{3}})$ ricavo $r_0$.
+
+ \section{Atomi muonici: shift isotopico per tali sistemi.}
+ 
+\subsection{Atomo muonico}
+Si legano agli atomi bersaglio in stati con high principal quantum number e  decadono a stati con n minore emettendo radiazione: raggio medio stato fondamentale $r_b^{\Pmuon}=\frac{1}{207}r_b$, per atomi pesanti la funzione d'onda dello stato fondamentale (modulo quadro) del \Pmuon ha valori apprezzabili dentro al nucleo.
+
+\begin{align*}
+E_n^{\Pmuon}=-\frac{1}{4\pi\epsilon_0}\ER^{\Pmuon}\frac{Z^2}{n^2}=-\frac{m_{\mu}}{m_e}\ER\frac{Z^2}{n^2}=-\frac{1}{207}\ER\frac{Z^2}{n^2}
+\end{align*}
+\index{Livelli atomo muonico}
+
+Shift isotopico.
+
+\begin{align*}
+E_K(A)-E_K(A')=E_{2p}(A)-E_{1s}(A)-E_{2p}(A')+E_{1s}(A')\\
+=\Delta E(A')-\Delta E(A)=\frac{4}{5}E_{\text{RYD}}Z^4(\frac{r_0}{r_b})^2(A'^{\frac{2}{3}}-A^{\frac{2}{3}})
+\end{align*}
+
+Gli effetti delle dimensioni nucleari sulle transizioni elettroniche tra i livelli pi\'u interni (X-ray shift) o degli elettroni di valenza (optical shift) sono dell'ordine di $10^{-4}$ e $10^{-6}$ la separazione tra i livelli enrgetici, ci\'o \'e dovuto alla differente scala tra il raggio di bohr e il raggio nucleare.
+
+Nel caso dell'atomo muononico per $Z$ abbastanza grande ho che l'orbita del muone ha raggio paragonabile a quello del nucleo (per $Z\geq47$ l'orbita \'e dentro il nucleo): $\frac{\delta E}{E}\sim \frac{1}{200}$.
+
+\begin{align*}
+\Delta E^{\mu}\approx\frac{4}{5}Z^4\ER^{\Pmuon}(\frac{r_0}{r_b^{\mu}})^2({A'}^{\frac{2}{3}}-A^{\frac{2}{3}})\\
+\approx\frac{4}{5}Z^4\ER(207)^3(\frac{r_0}{r_b})^2({A'}^{\frac{2}{3}}-A^{\frac{2}{3}})
+\end{align*}
+
+Muonic atoms: Shift isotopici.
+
+\begin{align*}
+&\Delta E_1\frac{4}{5}\ER^{\mu}Z^4(\frac{R}{r_b})^2=\frac{4}{5}(\frac{m_{\Pmuon}}{m_e})^3\ER Z^4\frac{r_0^2}{r_B^2}A^{\frac{2}{3}}=1.427 MeV\\
+&\epsilon_X=E_{2p}-E_{1s}=\frac{3}{4}\frac{m_{\Pmuon}}{m_e}\ER Z^2=0.33 MeV\\
+&\Delta \epsilon_X(A,A')=\epsilon_X(A)-\epsilon_X(A')=\frac{4}{5}(\frac{m_{\Pmuon}}{m_e})^3Z^4\frac{r_0^2}{r_B^2}(A^{\frac{2}{3}}-A'^{\frac{2}{3}})=8 KeV
+\end{align*}
+
+Hydrogenoid atoms: Shift isotopici.
+
+\begin{align*}
+&\Delta E_1\frac{4}{5}E_{\text{RYD}}Z^4(\frac{R}{r_b})^2=\frac{4}{5}E_{\text{Ryd}}Z^4\frac{r_0^2}{r_B^2}A^{\frac{2}{3}}\\
+&\epsilon_X=E_{2p}-E_{1s}=\frac{3}{4}E_{\text{Ryd}}Z^2\\
+&\Delta \epsilon_X(A,A')=\epsilon_X(A)-\epsilon_X(A')=\frac{4}{5}Z^4\frac{r_0^2}{r_B^2}(A^{\frac{2}{3}}-A'^{\frac{2}{3}})
+\end{align*}
+
+\section{Shift isotopico: Nuclei speculari}
+
+\subsection{Energia potenziale di una sfera uniformemente carica}
+Work to build up a charge configuration:
+
+\begin{equation*}
+W=-\int_P^Q\scap{f}{dl}=-q\int_P^Q\scap{E}{dl}=q[\phi(Q)-\phi(P)]
+\end{equation*}
+
+$U_e=\frac{\epsilon_0}{2}\int E^2d^3x$ where $\frac{\epsilon_0}{2}\int E^2$  is the energy density.
+
+La carica Q \'e uniformemente distribuita su una sfera di raggio a:
+
+let us imagine building up this charge distribution from a succession of thin spherical layers, we gather a small ammount of charge from infinity and spread it over the surface of the sphere in a thin layer from $r$ to $r+dr$. If q(r) is the charge of the sphere when it has attained the radius r then the work done in bringing a charge $dq$ to it is $dW=\frac{1}{4\pi\epsilon_0}\frac{q(r)dq}{r}$ con $q(r)=\frac{4}{3}\pi r^3\rho$.
+We have $dq(r)=4\pi \rho r^2dr$ so $dW=\frac{4\pi}{3\epsilon_0}\rho^2r^4dr$ and the total work to build up a sphere of radius a is $\frac{4\pi}{3\epsilon_0}\rho^2\int_0^ar^4dr=\frac{4\pi}{15\epsilon_0}\rho^2a^5$: 
+
+$W=\frac{3}{5}\frac{Q^2}{4\pi\epsilon_0a}$.
+
+Oppure integro $\frac{\epsilon}{2}E^2$ in tutto lo spazio:
+
+$E_r(r)=$\lbt{\frac{Q}{4\pi\epsilon_0}\frac{r}{a^3}\text{ per }r<a}{\frac{Q}{4\pi\epsilon_0r^2}\text{ per }r>a}.
+
+Due nuclei sono speculari se  hanno il numero di protoni e neutroni invertito: 
+\begin{align*}
+^A_wX_m \leftrightarrow ^A_mX_w\\
+^{A=13}_{Z=7}{X=N}_{N=6} \leftrightarrow ^{13}_6C_7\\
+^3_1H_2 \rightarrow ^3_2He_1\\
+^{39}_{20}Ca_{19}\rightarrow ^{39}_{19}K_{20}
+\end{align*}
+
+Supponiamo che il potenziale nucleone-nucleone non dipenda dalla carica elettrica; nei nuclei speculari (considero 2 nuclei in cui il numero di protoni e neutroni differisce di 1) cambia l'energia solo  Coulombiana. 
+
+Scelgo nuclei con $A=2Z-1$, misuro 
+\begin{align*}
+\Delta U_C=\frac{3}{5}\frac{e^2}{4\pi\epsilon_0R}[Z^2-(Z-1)^2]\frac{3}{5}\frac{1}{4\pi\epsilon_0}\frac{1}{R}[2Z-1]\\
+=\frac{3}{5}\frac{1}{4\pi\epsilon_0}\frac{A^{\frac{2}{3}}}{r_0}
+\end{align*}
+e ricavo $r_0$.
+\begin{enumerate*}
+\item Reazione nucleare $\Pproton\rightarrow \Pneutron +\APelectron +\Pnue$.
+
+La massima energia di \APelectron \'e misura $\Delta U_c$.
+
+\item Reazione $^{11}_5B_6+\Pproton\rightarrow^{11}_6C_5+\Pneutron$.
+
+La minima energia di \Pproton perch\'e la reazione avvenga misura $\Delta U_C$.
+\end{enumerate*}
+ 
+ \chapter{Reazioni nucleari}
+ 
+ \chapter{Potenziale nucleone-nucleone}
+ 
+\section{Sistema di 2 nucleoni:diffusione a energia zero. Scattering lenght, Effective range}
+
+\subsection{Buca potenziale attrattiva NN}
+$\lambdabar\approx\frac{9.1}{E^{\frac{1}{2}}}\gg r_0$ con E energia cinetica nel sistema Lab in $MeV$ ho scattering solo in onda s.
+
+$E\ll V_0$: approssimo la funzione d'onda con due seni avente uno, quello che corrisponde alla parte interna alla buca,  $\lambda_{int}\ll\lambda_{out}$e al limite $E\rightarrow 0$:
+\begin{align*}
+\left\{\begin{array}{c}u=A\sin{(k_tr)} \text{ per   $r<r_0$ con } k_t\approx 10^{13}cm^{-1}\\ C(r-a_t) \text{ per   $r>r_0$}\end{array}\right.
+\end{align*}
+
+Continuit\'a per $r=r_0$: derivata logaritmica.
+
+\begin{equation*}
+\frac{u'(r_0)}{u(r_0)}=k_t\cot{k_tr_0}=\frac{1}{r_0-a_t}
+\end{equation*}
+
+ovvero $a_t=r_0(1-\frac{1}{k_tr_0}\tan{k_tr_0})$ si vede che $\delta_0=-\frac{a_t}{\lambdabar}$ e per $E\rightarrow0$ ($\lambdabar\rightarrow\infty$ il seno diventa una retta):
+
+$\sigma_t=4\pi\lambdabar^2\sin^2{\delta_0}\rightarrow4\pi a_t^2$.
+
+Wigner $1935$:
+
+$\sigma_{exp}=\frac{1}{4}\sigma_s+\frac{3}{4}\sigma_t=20.36$ da cui $\sigma_s=4\pi a_s^2=68 barns$ da cui ricavo il modulo di $a_s=23.6fm$. Sostituisco $a_s$ in $a_s=r_0-\frac{1}{k_s}\tan{k_sr_0}$ e trovo $k_s$:
+
+$k_s=\frac{2m|V_s|^{\frac{1}{2}}}{\hbar}\approx 5 10^{12} cm^{-1}$ infine $V_s\approx-11.5 MeV$.
+
+\section{Scattering proton-neutron}
+
+\subsection{Ampiezza scattering}
+Espansione di $\pw{k}{r}$ in armoniche sferiche.
+
+\begin{align*}
+\pw{k}{r}=e^{ikr\cos{\theta}}=\sum_{l=0}^{\infty}i^l(2l+1)J_l(kr)P_l(\cos{\theta})
+\end{align*}
+
+Sezione d'urto.
+\begin{align*}
+\sigma=\int \sigma(\theta) d\Omega=\int |f(\theta)|^2d\Omega\\
+\frac{d\sigma}{d\Omega}=|f(\theta)|^2=\frac{1}{k^2}\sin^2{\delta_0}
+\end{align*}
+
+Relazione ampiezza di scattering sezione d'urto:
+
+$d\sigma=|f(\theta)|^2d\Omega$, caso $l=0$:
+
+per $l=0$ ho $d\sigma=\frac{1}{k^2}\sin{\delta_0}d\Omega$.
+
+\subsection{Sezione d'urto sfera impenetrabile}
+
+\begin{align*}
+&\frac{d\sigma}{d\Omega}=\frac{b}{\sin{\theta}}|\frac{db}{d\theta}|\\
+&b(\theta)=-R\cos{\frac{\theta}{2}}\\ |\frac{db}{d\theta}|=\frac{R}{2}\sin{\frac{\theta}{2}}\\
+&a(k):\quad -ka(k)=\tan{\delta_0}\\
+&\sigma=\frac{4\pi}{k^2}\frac{1}{1-\cot^2{\delta_0}}=\frac{4\pi}{k^2+a^2(k)}\\
+&\sigma_t=4\pi\lambdabar^2\sin^2{\delta_0}\rightarrow4\pi a_t^2\\
+&20.36=\frac{3}{4}(4.4)+\frac{1}{4}\sigma_s
+\end{align*}
+
+\subsection{Scattering lenght}\index{Scattering Lenght}
+
+\begin{align*}
+&\psi_{\text{Scat}}=A\exp{i\delta_0}\frac{\sin{\delta_0}}{k}\frac{\exp{ikr}}{r}\\
+&=-Aa(k)\exp{i\delta_0}\frac{\exp{ikr}}{r}\\
+&u=C\sin{(kr+\delta_0)}=C\sin{\delta_0}(r\frac{\sin{kr}}{kr}\frac{k}{\tan{\delta_0}}+\cos{kr})\\
+&\abl{k}{0}C\sin{\delta_0[1-\frac{1}{a(0)}r]}
+\end{align*}
+
+
+A basse energie $u(r)$ diventa una retta: $\frac{d^2u}{dr^2}=0$.
+
+\subsection{Effective range}\index{Effective range}
+Sviluppo  $\frac{q}{\tan{\delta_0}}=-\frac{1}{a}+\frac{r_0q^2}{2}+o(q^2)$.
+
+The scattering length concept can be extended to energies other than 0 by defining a(k) through: $-ka(k)=\tan{\delta_0}$.
+
+\begin{equation*}
+\frac{1}{a(k)}=-k\cot{\delta_0}=\frac{1}{a(0)}-\frac{1}{2}a_0k^2+\ldots
+\end{equation*}
+ con $a_0$ che \'e l'effective range.
+
+Equivalente per $k\rightarrow0$ a $\delta_0=-\frac{a_t}{\lambdabar}$:
+\begin{equation*}
+\sigma(l=0)=\frac{4\pi a^2}{1+a^2q^2-r_0aq^2}
+\end{equation*}
+
+\subsection{Relazioni trigon.}
+
+Tangente di una somma:
+\begin{align*}
+\tan{(a\pm b)}=\frac{\tan{a}\pm\tan{b}}{1\mp\tan{a}\tan{b}}\\
+\sin^2x=\frac{1}{1+\cot^2x}=\frac{\tan^2\delta}{1+\tan^2\delta}\\
+\sigma(l=0)=\frac{4\pi a^2}{1+a^2q^2-r_0aq^2}
+\end{align*}
+
+\section{Scattering NN a energia zero:lunghezza di scattering e significato fisica del suo segno.}
+
+ Raggio efficace dell'interazione nucleare (formula di Bethe) e sezione d'urto a bassa energia.
+
+For energy $1eV<E<10Mev$ the neutron with orbital angular momentum larger than zero do not come close enough to the proton to be appreciably scattered.
+
+Il problema \'e ridotto a trovare lo sfasamento in onda S.
+
+\subsection{Limite Energia zero (estrapolato fino a zero)}
+
+Beyond the range of the force: $u(r)\abl{E}{0}=u_0(r)$ quindi $u_0$ soluzione di ES radiale ridotta $(\frac{d^2u_0}{dr^2})=0$, dato che posso moltiplicare la soluzione per una costante qualsiasi la cosa che mi interessa \'e il valore di r $r=a$ per cui $u_0(a)=$. Normalizzazione $u_0\abl{r}{\infty}v_0(r)\abl{k}{0}1-\frac{r}{a}$ (in generale prendo $a(E)$ il primo zero di $u_E(r)$).
+
+\subsection{Determino la lunghezza di scattering}
+(Segre:$\sin{(\frac{r}{\lambdabar}-\frac{a}{\lambdabar})}$, $\frac{u'}{u}=k\cot{kR}=\frac{1}{R-a_t}$).
+
+Confronto le espressioni:
+
+\lbt{u_0(r)\abl{r}{\infty}\frac{\sin{(kr+\delta)}{\sin{\delta}}}{\sin{\delta}}\abl{k}{0}1+(kr)\cot{\delta}}{u_0=1-\frac{r}{a}}
+ricavo 
+
+\begin{equation*}
+\tan{\delta}=-ka
+\end{equation*}
+
+\subsection{Cross section in the limit $E\rightarrow0$}
+ $\sin^2{\delta}=\frac{\tan^2{\delta}}{1+\tan^2{\delta}}\approx ka$ sostituisco in $d\sigma=\frac{1}{k^2}\sin{\delta_0}d\Omega$ e ho $\sigma_0=4\pi a^2$.
+ 
+From experimental measure of $\sigma_0$ we can determine the absolute value of a.
+
+\subsection{Directly from $\psi$: connection between $\sigma$ and $a$}
+
+$\psi(\vec{r})=\exp{ikz}+f(\theta)\frac{\exp{ikr}}{r}\abl{k}{0}+\frac{f(\theta)}{r}$ quindi $u=r\psi=r+f(\theta)$ e confrontando con $u_0=c(r-a)$ ho $f=-a$ e $d\sigma=a^2d\Omega$ (as above): from expression of $\delta(E)$ we obtain $\sigma(E)$.
+
+\subsection{Relation between scattering and deuton ground state}
+
+E piccolo:
+\begin{align*}
+&\frac{\sqrt{2mE}}{\hbar}\cot{\frac{\sqrt{2mE}}R+\delta_0}\\
+&\approx k\cot{\delta_0}\\
+&-\alpha=K'\cot{K'R}=\frac{\sqrt{2m(V_0+E)}}{\hbar}\cot{\frac{\sqrt{2m(V_0+E)}}{\hbar}R}\\
+&=k\cot{kR+\delta_0}=\frac{\sqrt{2mE}}{\hbar}\cot{\frac{\sqrt{2mE}}R+\delta_0}\approx k\cot{\delta_0}
+\end{align*}
+
+
+Trovo $\sigma(\theta)\approx\frac{1}{k^2+\alpha^2}\approx\frac{\hbar^2}{mB}$.
+
+Per $E>0$:
+
+\lbt{u(r)=A\sin{kr}, r<R}{u(r)=\sin{(qr+\delta)}, r>R}.
+
+Per $E=-B<0$:
+
+\lbt{u(r)=A\sin{K_dr}, K_D=\frac{\sqrt{2m(V_0-B)}}{\hbar}}{u(r)=Be^{-\alpha r}, \alpha=\frac{\sqrt{2mB}}{\hbar}}.
+
+As usual we have imposed continuity of logaritmic derivative $\frac{u'}{u}$ in R: $k\cot{(kR+\delta)}=q\cot{qR}$.
+
+Let assume incident energy is small $E<10KeV$:
+
+$k=\frac{\sqrt{2m(V_0+E)}}{\hbar}0.92 fm^{-1}$ with $V_0=35 MeV$ and $q=\frac{\sqrt{2mE}}{\hbar}<0.016fm^{-1}$.
+
+Tramite l'approssimazione:
+
+$\alpha\approx-k\cot{kR}(=-q\cot{qR+\delta})$ ottengo una relazione fra $k$ e quindi l'energia dei neutroni incidenti nel cm, l'energia di legame del deutone, R con $\delta$:
+
+$\sin^\delta=\frac{(\cos{qR}+\frac{\alpha}{q}\sin{qR})^2}{1+\frac{\alpha^2}{q^2}}$.
+
+Per la sezione d'urto totale:
+
+$\sigma=\frac{4\pi}{q^2+\alpha^2}[\cos{qR}+\frac{\alpha}{q}\sin{qR}]^2$. So che $R\approx2fm$, $\alpha\approx0.2fm^{-1}$ quindi $q^2\ll\alpha^2$.
+
+$qR\ll1$: $\frac{4\pi}{\alpha^2}(1+\alpha R)\approx4.6b$
+
+Il deutone esiste solo come tripletto di spin:
+
+$\sigma{TOT}=20.4b=\frac{3}{4}\sigma_t+\frac{1}{4}\sigma_s=\frac{3}{4}*3.4b+\frac{1}{4}\sigma_s$ e ricavo $\sigma_s=71.4b$.
+
+Inoltre ricavo i parametri per il potenziale di singoletto \lbt{a_s=-23.715fm}{r_{0s}=2.73fm} e per il tripletto \lbt{a_t=5.423 fm}{r_{0t}=1.748fm}
+
+
+\section{Scattering di particelle identiche: Simmetria della funzione d'onda, sistemi PP, NN.}
+ %% segre 412p
+
+\subsection{Scattering di particelle identiche: sezione d'urto}
+
+La funzione d'onda radiale  
+\begin{align*}
+\psi(r)\abl{r}{\infty}A[\pw{k}{r}+F(\theta)\osw{k}{r}]&\intertext{ per $S=1$, $\psi(r)$ \'e antisimmetrica}\\ (\phi_T(r)=\phi(r,\theta)-\phi(r,\pi-\theta))\\
+\Rightarrow F_T(\theta)=F(\theta)-F(\pi-\theta)\\ \frac{d\sigma}{d\Omega}=|F(\theta)|^2+|F(\pi-\theta)|^2-2\Re{[F(\theta)F^*(\pi-\theta)]}&\intertext{per $S=0$ $\psi(r)$ \'e simmetrica}\\
+(\phi_S(r)=\phi(r,\theta)+\phi(r,\pi-\theta))\\
+\Rightarrow F_S(\theta)=F(\theta)+F(\pi-\theta)\\ \frac{d\sigma}{d\Omega}=|F(\theta)|^2+|F(\pi-\theta)|^2+2\Re{[F(\theta)F^*(\pi-\theta)]}&\intertext{termine standard + termine di scambio+ interferenza.}
+\end{align*}
+
+Energie tipiche:
+
+$E_{lab}>100KeV$ (Classicamente ho una distanza di closest approach, $d=\frac{e^2}{E}$, in QM se $d<\lambdabar=(\frac{\hbar^2}{2mE})^{\frac{1}{2}}$ l'urto pu\'o avvenire).
+
+Scattering di particelle identiche: sistema \Pproton-\Pproton.
+
+Stati possibili ($S+T+l=dispari$):
+
+Momento orbitale: Per $E< 10 MeV$ conta solo l'onda S $L=0$.
+
+Isospin: $T_z=1$ quindi $T=1$.
+
+Spin: devo scegliere il singoletto antisimmetrico: $S=0$.
+
+Fattore di penetrazione Coulombiana:
+
+Probabilit\'a relativa di trovare 2 particelle cariche nello stesso punto rispetto a 2 neutre $C^2=\frac{2\pi\eta}{\exp{(2\pi\eta)}-1}$, con $\eta=\frac{e^2}{4\pi\epsilon_0}\frac{1}{\hbar c}\frac{c}{v}=\frac{\alpha}{\frac{v}{c}}$.
+
+\subsection{Sezione d'urto per scattering pp}
+\begin{align*}
+&\frac{d\sigma}{d\Omega}=(\frac{e^2}{4\pi\epsilon_0}\frac{1}{4E})^2*\\
+&*[\overbrace{\frac{1}{\sin^4{\frac{\theta}{2}}}}^{\text{Rutherford}}+\\
+&+\overbrace{\frac{1}{\cos^4{\frac{\theta}{2}}}-\frac{\cos{[\eta\ln{(\tan^2{\frac{\theta}{2}})}]}}{\sin^2{\frac{\theta}{2}}\cos^2{\frac{\theta}{2}}}}^{\text{Correzione particelle identiche}}]+\\
+&+(\frac{e^2}{4\pi\epsilon_0}\frac{1}{4E})^2[\overbrace{-\frac{2}{\eta}\sin{\delta_0}[\frac{\cos{(\delta_0+\eta\ln{\sin^2{\frac{\theta}{2}}})}}{\sin^2{\frac{\theta}{2}}}+\frac{\cos{\delta_0+\eta\ln{\cos^2{\frac{\theta}{2}}}}}{\cos^2{\frac{\theta}{2}}}]}^{\text{Interferenza C-N}}+\\
+&+\overbrace{\frac{4}{\eta^2}\sin{\delta_0}}^{\text{Potenziale nucleare}}]
+\end{align*}
+
+
+\subsection{Parametri di scattering: PP, PN, NN}
+
+pp scattering $T=1$ with contribution of coulomb part removed. lowest possible states: singoletto: $^1S_0$, $^1D_2$, tripletto: $^3P_0$, $^3P_1$. for $E_{lab}<300 MeV$ the contribution of inelastic scattering are trascurable: only real part of phase shift.
+
+
+Isovector np scattering: T=1: S=1 $^3P_0$, $^3P_1$, if charge indipendence (modulo coulomb) they are slightly different from the pp phase shift.
+
+Isoscalar np scattering: T=0:antisimmetric isospin, S=0 l-odd $^P_1$. The other T=0, S=1, l-even: mixing of differnetial partial l-wave: the tensor force can mix two triplet state of same J but $l=J\pm1$.
+
+ \chapter{Deutone}
+ 
+\section[Sistema legato di 2 nucleone: deuteron]{Il deutone: il nucleo pi\'u semplice su cui mettere alla prova ci\'o che si pensa di sapere sulle interazioni  fra nucleoni}
+
+\subsection{Sistema di 2 nucleoni: forze centrali, buca di potenziale}
+
+The deuteron is a state with isospin projection $T_z=0$: the isospin $T$ of a system of two nucleon can be T=0 or T=1.
+
+Per nuclei leggeri T \'e un buon numero quantico quindi  il ground state ha un valore determinato di T.
+
+Analizzo la parit\'a del sistema:
+\begin{itemize*}
+\item Spatial part\\
+Per $L=0,2$ la funzione d'onda radiale \'e pari
+\item Spin wave\\
+The spin part of deuton wave function is in $S=1$ triplet state which is simmetric under parity (lowering operstors are symmetric under exchange of particles) 
+\item Isospin wave\\
+Since the total wave function of a system of identical fermions must be antisymmetric the isospin wave function have to be antisymmetric:
+
+\begin{align*}
+&\ket{T=0,T_0=0}=\\
+&\frac{1}{\sqrt{2}}[\ket{t=\frac{1}{2},t_0=\frac{1}{2}}_1\ket{t=\frac{1}{2},t_0=-\frac{1}{2}}_2\\
+&-\ket{t=\frac{1}{2},t_0=\frac{1}{2}}_2\ket{t=\frac{1}{2},t_0=-\frac{1}{2}}_1]
+\end{align*}
+
+\end{itemize*}
+
+\subsection{Shape-indipendent}
+
+Si vede da esperimenti di scattering che per energie del nucleone incidente fino a $20 MeV$ sono sufficienti 2 parametri per descrivere il potenziale: lo sfasamento della funzione d'onda dipende debolmente dalla forma della buca.
+
+Buca di potenziale rettangolare.
+
+Condizione di esistenza di almeno uno stato legato.
+
+$V_0r_0^2\geq\frac{\pi^2\hbar^2}{8M}(\approx 10^{-24}MeV fm^2)$, se $r_0\approx 2 fm$ allora $V_0>25 MeV$ perch\'e esista stato legato: 
+
+determino $B\approx 2,23 MeV$ quindi $V_0\approx 36 MeV$.
+
+Nucleo puntiforme:
+
+$c+b=r_0\rightarrow0$, $k=\sqrt{\frac{2mB}{\hbar^2}}$, $\Psi=\sqrt{\frac{k}{2\pi}}\frac{e^{-kr}}{r}$.
+
+\section{Il deutone: propriet\'a. E relazioni con la teoria.}
+
+\subsection{Momento magnetico di dipolo}
+\begin{align*}
+&\vec{\mu}=g_s^n\vec{s^{(n)}}+g_s^p\vec{s^{(p)}}+\frac{1}{2}g_l^p\vec{l}\\
+&=\frac{1}{2}(g_s^{(n)}+g_s^{(p)})\vec{S}+\frac{1}{2}(g_s^{(n)}-g_s^{(p)})(\vec{s_n}-\vec{s_p})+\frac{1}{2}g_l^{(p)}\vec{l}
+\end{align*}
+
+Per $\vec{s_n}$, $\vec{s_p}$ paralleli:
+
+$\vec{\mu}=\frac{1}{2}(g_s^{(n)}+g_s^{(p)})\vec{J}+\frac{1}{2}(1-g_s^{(n)}-g_s^{(p)})\vec{l}=\mu_1+\mu_2$.
+
+Proiezione di $\vec{\mu}$ su momento totale $\vec{J}$:
+
+\begin{align*}
+&\vec{\mu_J}=\vec{\mu_1}+|\vec{\mu_2}|\cos{\alpha}\frac{\vec{J}}{|\vec{J}|}\\
+&=\frac{1}{2}(g_s^{(n)}+g_s^{(p)})\vec{J}+\frac{1}{2}(1-g_s^{(n)}-g_s^{(p)})\frac{\vec{J}^2+\vec{l}^2-\vec{S}^2}{2|\vec{J}|^2}\vec{J}
+\end{align*}
+
+
+\subsection{Propriet\'a sperimentali del deutone}
+\begin{itemize*}
+\item Mass: $1875.613 MeV$
+
+\item Binding energy $B=2.224566 MeV $.
+Misura:
+
+\begin{itemize*}
+\item Differenza di massa
+\item Neutron-Proton capture.
+
+ $n+p\rightarrow ^2H+\gamma$
+\item Fotodissociazione del deutone.
+
+$\gamma+^2H\rightarrow p+n$
+\end{itemize*}
+
+\item Spin e parit\'a: $J^{\pi}=1^+$\\
+dagli spettri iperfini ricavo $J=1$.\\
+Dalla reazione di cattura $pn$ ricavo che la parit\'a del deutone \'e positiva:
+
+$\PO\psi_d=\psi(-\vec{r})\underbrace{\PO\psi_p}_+\underbrace{\PO\psi_n}_+$,
+
+quindi detto $l$ momento angolare relativo del moto dei 2 nucleoni $+=(-)^l$ quindi l deve essere pari.
+
+\item Magnetic dipole moment $\mu_d=0.8574 \mu_N$
+
+\item Electric quadrupole moment $Q_d=0.2859 e fm^2$.
+
+lo misuro dagli spettri atomici come il momento di dipolo
+
+\item Asymptotic ratio $\eta_d=\frac{A_D}{A_S}=0.0256$.
+
+\item Radius:
+
+Charge radius $r_{ch}=2.130 fm$.
+
+matter radius $r_m=1.975 fm$.
+
+\item Electric polarizability $\alpha_E=0.645 fm^3$.
+
+\end{itemize*}
+
+
+\section{Spin dependence e forze nucleari non-centrali: forma generale dell'interazione tensoriale. Espressione di Wigner-Eisenbud}
+
+
+\subsection{Richiamo interazioni EM}
+
+Momenti:
+
+\begin{align*}
+&\vec{E}^j=-\partial^j\phi\\
+&\vec{P}=\int d^3x\rho(\vec{x})\vec{x}\\
+&Q^{ij}=\int d^3x(3x^ix^j-\delta^{ij}x^2)\rho(\vec{x})\\
+&\vec{M}=\frac{1}{2}\int d^3x\vec{x}\wedge\vec{J}(\vec{x})\rightarrow\frac{e}{2m}\int d^3x\rho'(\vec{x})\vec{x}\wedge\vec{p}\\
+&=\frac{e}{2m}\int d^3x\sum_j\psi^*l^{(j)}\psi\\
+&M_{\text{Spin}}=\mu_N(\sum_{j=1}^zg_p\vec{s}^{(j)}+\sum_{j=z+1}^Ag_n\vec{s}^{(j)})\\
+&=\mu_N[(g_p+g_n)\vec{S}+(g_p-g_n)\sum_{j=1}^A\tau_3^{(j)}s^{(j)}]
+\end{align*}
+
+Hamiltoniana EM:
+
+\begin{align*}
+H_{\text{EM}}=\int d^3xJ_{\mu}A^{\mu}=\int d^3x[\rho(\vec{x})\phi(\vec{x})-\vec{J(\vec{x})}\cdot\vec{A(\vec{x})}]
+\end{align*}
+
+Espansione dei potenziali:
+
+\begin{align*}
+&\int d^3x[\rho(\vec{x})(\phi(0)+\partial_i\phi(\vec{x})|_{\vec{x}=0}x^i+\frac{1}{2}\partial_i\partial_j\phi(\vec{x})|_{\vec{x}=0}x^ix^j+\ldots)\\
+&-\vec{J}\cdot(\vec{A}(0)+\partial_i\vec{A}(\vec{x})|_{\vec{x}=0}x^i+\frac{1}{2}\partial_i\partial_j\vec{A}(\vec{x})|_{\vec{x}=0}x^ix^j+\ldots)]
+\end{align*}
+
+Energia EM in termini di momenti.
+
+\begin{align*}
+H_{EM}=Q\phi(0)-\vec{P}\cdot\vec{E}-\frac{1}{6}Q^{ij}\partial^i\vec{E}^j-\vec{M}\cdot\vec{B}+\ldots
+\end{align*}
+
+Composizione diagonale nella base $\ket{JJ_z}$ del momento angolare orbitale e di spin per 2 particelle con spin $\frac{1}{2}$:
+
+$\ket{LS,JJ_z}=\sum_{m,S_z}(lmSS_z|JJ_z)\chi_{S,S_Z}Y_{l,m}(\hat{r})$.
+
+\subsection{Operatore di dipolo magnetico per il deutone}
+
+ \mbox{\lbt{g_p=2\mu_p=5.5857\mu_N}{g_n=2\mu_n=-3.8261\mu_N}}.
+ 
+Dipolo magnetico.
+
+$\vec{\mu_d}(\text{in unit\'a di }\mu_N)=g_p\vec{s_p}+g_n\vec{s_n}+\vec{l_p} (=\frac{1}{2}\vec{L}: m_n\approx m_p)$:
+
+$\mu_d(^3S_1)=\mu_p+\mu_n=0.8798\mu_N$.
+\begin{align*}
+\mu_d=\frac{1}{2}[(g_p+g_n)\vec{S}+\underbrace{(g_p-g_n)(\vec{s_p}-\vec{s_n})}_{=0\text{ Connette stati con S=1 e S=0}}+\vec{L}]\\
+(\vec{s_p}-\vec{s_n})\ket{S=1}=0
+\end{align*}
+
+
+\subsection{Operatore di quadrupolo elettrico}
+
+\begin{align*}
+&Q_0=e(3z^2-r^2)=er^2(3\cos^2{\theta}-1)=\sqrt{\frac{16\pi}{5}}er^2Y_{20}(\theta,\phi)\\
+&\ket{LS;JM}=\sum_{M_L,M_S}(lM_LSM_S|JM)\ket{LM_L}\ket{SM_S}\\
+&Q_d(L)=\sum_{M_L}(LM_LS(M-M_L)|JM)^2\braket{LM_L|Q_0|LM_L}
+\end{align*}
+
+Per il deutone ho il valore sperimentale di $Q=0.00288b=0.288fm^2$ da confrontare con il valore di aspettazione
+\begin{equation*}
+Q=\frac{\sqrt{2}}{10}a_sa_d\exv{r^2}_{sd}-\frac{1}{20}a_d^2\exv{r^2}_{dd}
+\end{equation*}
+
+Il momento di quadripolo $Q(m)$ nello stato m \'e legato al momento di quadrupolo Q nello stato $m=J$ tramite $Q(m)=\frac{3m^2-J(J+1)}{J(2J-1)}Q$.
+
+
+\section{La forza nucleare dipende dallo spin}
+
+\begin{itemize*}
+\item Scattering of low energy neutrons from ortho ($I = 1$, spins of protons parallel) and para $^2H$ ($I = 0$, spins of protons antiparallel).
+
+The scattering cross-section from ortho-hydrogen, $\sigma$-ortho is 30 times $\sigma$-para.
+
+\item The $S=0$ singlet state of the deuteron is unbound.
+
+The interaction must depend on the spins $\sigma_A$ and $\sigma_B$ of the nucleons.
+
+\item Valore sperimentale del dipolo magnetico.
+
+Trovo una discrepanza tra il valore di aspettazione del dipolo magnetico per lo stato $^3S_1$ e il valore misurato: 
+
+$\mu_d^{\text{exp}}-\mu_d(^3S_1)=-0.0224\mu_N$.
+
+\end{itemize*}
+
+\subsection{Magnetic dipole energy.}
+Evaluating $V_M=\frac{1}{r^3}[3\frac{(\scap{\mu_1}{r})(\scap{\mu_2}{r})}{r^2}-\scap{\mu_1}{\mu_2}]$ at a spacing of, say, 1 fm for a neutron / proton pair with parallel spins gives an energy of $0.086 MeV$ (position vector normal to spins) or $+0.172 MeV$ (position vector parallel to spins). Thus, the dipole energy is very small compared with the strong nuclear potentials at around a $1 fm$ spacing.
+
+Scrivo la funzione d'onda pi\'u generale per il deutone $\ket{\psi_d}=a\ket{^3S_1}+b\ket{^3D_1}$.
+
+Stimo la componente  $^3D_1$ dello stato fondamentale del deutone $\mu_d=a^2\mu_d(^3S_1)+b^2\mu_d(^3D_1)$ da
+\begin{align*}
+&\braket{JM|\mu_0|JM}=\frac{M}{J(J+1)}\braket{JM|(g_p+g_n)(\scap{S}{J})+(\scap{L}{J})|JM}\\
+&=\frac{M}{J(J+1)}\frac{1}{4}[\braket{JM|(g_p+g_n)\frac{1}{2}(J^2-L^2+S^2)|JM}\\
+&+\braket{JM|\frac{1}{2}(J^2+L^2-S^2)|JM}]=\left\{\begin{array}{l}\mu_p+\mu_n \text{ per stati } ^3S_1\\\frac{1}{8}[(g_p+g_n)(-2)+6]=0.310\mu_N  \text{ per stati } ^3D_1\end{array}\right.
+\end{align*}
+ricavo $b\approx0.04$.
+
+\subsection{Formula di Wigner-Eisenbund}
+In 1941 Wigner and Eisenbud showed that the most general nucleon-nucleon potential, depending only upon distance between nucleons and their spins so that total momentum, angular momentum and parity are constant of motion, has the form:
+
+$V_1(r)+V_2(r)\scap{\sigma_1}{\sigma_2}+V_3(r)S_{12}$:
+
+$S_{12}=[\frac{3(\scap{\sigma_1}{r})(\scap{\sigma_2}{r})}{r^2}-\scap{\sigma_1}{\sigma_2}]$.
+
+$V_{\sigma}=V_1(r)\scap{\sigma_p}{\sigma_n}$:
+
+\lbt{V_T=V_0+\frac{1}{4}V_1}{V_S=V_0-\frac{3}{4}V_1} \lbt{V_0=-32.5 MeV}{V_1=-10MeV}.
+
+Nel caso del deutone ho $H=\begin{pmatrix}H_{11}&H_{12}\\H_{21}&H_{22}\end{pmatrix}$.
+
+Cerco un'Hamiltoniana tale che:
+
+$H_{12}=H{21}=\braket{^3D_1|H|^3S_1}\neq0$.
+\begin{enumerate*}
+\item La parte spaziale connette stati $S$ e stati $D$ cio\'e \'e tensore sferico di rango 2.
+\item H conserva $J$: V \'e uno scalare per J.
+\end{enumerate*}
+
+Scrivo $S_{12}$ in  funzione di $\vec{S}=\vec{s_1}+\vec{s_2}=\frac{\hbar}{2}(\vec{\sigma_1}+\vec{\sigma_2})$:
+
+\lbt{\scap{\sigma_1}{\sigma_2}=\frac{2}{\hbar^2}\vec{S}^2-3}{(\vec{S}\cdot\vec{r})^2=\frac{\hbar^2}{4}[\scap{\sigma_1}{r}+\scap{\sigma_2}{r}]^2}.
+\begin{equation*}
+S_{12}=\frac{2}{\hbar^2}[\frac{3(\scap{S}{r})^2}{r^2}-S^2]
+\end{equation*}
+
+\subsection{Espressioni asintotiche funzione d'onda del deutone}
+
+Composizione di momenti e CCG.
+\begin{align*}
+\Upsilon_{JSL}^{M_J}=\sum_{M_S,M_L}\braket{SM_SLM_L|JM_J}\chi_S^{M_S}Y_L^{M_L}\\
+\Upsilon_{110}^1=\chi_1^1Y_0^0(\Omega)\\
+\Upsilon_{112}^1=\underbrace{(1120|11)}_{\sqrt{\frac{1}{10}}}\chi_1^1Y_2^0(\Omega)+\underbrace{(1021)}_{\sqrt{\frac{3}{10}}}\chi_1^0Y_2^1(\Omega)+\underbrace{(1-122|11)}_{\sqrt{\frac{3}{5}}}\chi_1^{-1}Y_2^2(\Omega)\\
+\end{align*}
+
+Riscrivo $S_{12}$ in funzione degli operatori $S_{\pm}$ salita/discesa dello spin totale $\vec{S}$ e le componenti sferiche di $\vec{r}$ $r_{\pm}=x\pm\mathbf{i}y, r_0=z$:
+
+$S_{12}=2\{2[\frac{1}{2}S_+(x-\mathbf{i}y)+\frac{1}{2}S_-(x+\mathbf{i}y)+S_zz]^-S^2\}$ che sono diagonali su $\ket{lmSS_z}$ quindi riscrivo in funzione di $\phi_s$:
+
+\begin{align*}
+&\ket{lsJJ_z}=\sum\braket{SS_ZLM|JM_J}\ket{LM;SS_z}\\
+&\psi_d=\frac{u(r)}{r}\underbrace{\phi_s}_{\phi_{lsJJ_z}=\phi_{011j_z}}+\frac{w(r)}{r}\overbrace{\phi_d}^{\phi_{211j_z}}=[\frac{u(r)}{r}+\frac{w(r)}{\sqrt{8}r}S_{12}]\phi_s
+\end{align*}
+
+Ottengo 2 equazioni accoppiate per $u(r)$ e $w(r)$:
+\begin{align*}
+&\{ -\frac{\hbar^2}{2m}\frac{1}{r^2}\frac{\partial}{\partial r}(r^2\frac{\partial}{\partial r})+V_1(r)+V_2\vec{\sigma_2}\vec{\sigma_1}+V_{NS}S_{12}+\frac{l^2}{2mr^2}\\
+&-E \}\psi_d=0
+\end{align*}
+
+
+Asintoticamente:
+\begin{align*}
+&u(r)\rightarrow N_0e^{-\gamma r}\\
+&w(r)\rightarrow N_2(1+\frac{3}{\gamma r}+\frac{3}{\gamma^2r^2})e^{-\gamma r}\\
+&\gamma=\sqrt{2\mu E}
+\end{align*}
+
+\subsection{Quadrupole moment}
+
+\begin{align*}
+&Q=\sqrt{\frac{16\pi}{5}}\braket{J,M=J|Q_{20}|J,M=J}\\
+&=e\sqrt{\frac{16\pi}{5}}\int\psi^*_{J=M=1(\vec{r})}[\sum_{i=1}^2\frac{\tau_{zi}+1}{2}r_i^2Y_{20}(\hat{r_i})]\psi_{J=M=1(\vec{r})}\\
+&=e\sqrt{\frac{16\pi}{5}}\int\psi^*_{J=M=1(\vec{r})}[\frac{r^2}{4}Y_{20}(\hat{r})]\psi_{J=M=1(\vec{r})}
+\end{align*}
+
+La parte dominante di Q \'e data dal contributo di interferenza $e\frac{\sqrt{2}}{10}\Re{ab^*}(\int r^4R_0R_2)$ (dal momento magnetico: $b=0.2\ll1$), verifico con un conto:
+
+$Q\approx e\frac{(0.2)*\sqrt{2}}{10}\int r^4R_0R_2dr=Q_{exp}=0.286 efm^2$ quindi $\int r^4R_0R_2dr\approx10.1 fm^2$ ragionevole ricordando $\exv{r_{ch}^2}=\frac{1}{4}\int R_0^2r^4dr\approx 4$.
+
+\section{Effective range per stati debolmente legati}
+
+\subsection{Effective range}
+\begin{align*}
+&-\frac{\hbar^2}{2m}[v^{(2)}\frac{dv^{(1)}}{dr}-v^{(1)}\frac{dv^{(2)}}{dr}]|_{r=0}\\
+&=(E_1-E_2)\int_0^{+\infty}(u^{(1)}u^{(2)}-v^{(1)}v^{(2)})dr
+\end{align*}
+
+
+Per $E_2=-B$, con $B=\frac{\hbar^2\alpha^2}{2m}$, e ricordando che abbiamo normalizzato la soluzione per $V=0$ in maniera che $v^{(1)}(0)=v^{(2)}(0)=1$, ho:
+
+\lbt{u^{(2)}(r)=\exp{-\alpha r}}{u^{(2)}(0)=0}, $v^{(2)}(r)=\exp{-\alpha r}$ soluzione dell'ES con $V=0$ con $v^{(1)}=v^{(2)}=1$.
+
+Posto $E_1=\frac{\hbar^2k^2}{2m}>0$ ho  \lbt{\frac{d}{dr}v^{(2)}|_{r=0}=-\alpha}{\frac{d}{dr}v^{(1)}|_{r=0}=k\cot{\delta}}.
+
+Partendo dall'espressione esatta:
+\begin{equation*}
+k\cot{\delta}+\alpha=\frac{2m}{\hbar^2}(E+B)\int_0^{+\infty}dr(u^{(1)}u^{(2)}-v^{(1)}v^{(2)})
+\end{equation*}
+
+prendo il limite
+\begin{align*}
+k\cot{\delta}+\alpha=\frac{2m}{\hbar^2}(E+B)\int_0^{+\infty}dr(uu^B-vv^B)\abl{k}{0}\\
+-\frac{1}{a}+\alpha=\alpha^2\int_0^{+\infty}dr(u_{k=0}u^B-v_{k=0}v^B)
+\end{align*}
+
+\subsection{Stati debolmente legati}
+$u^B(r)\approx u^0(r)$ per $r<R_0$.
+
+Definisco $\int_0^{+\infty}dr(u^2_{k=0}-v^2_{k=0})=\frac{1}{2}r_0$ e ottengo:
+
+$\frac{1}{a}=\alpha-\frac{1}{2}r_0\alpha^2$.
+
+Per il deutone:
+
+$\alpha=\frac{\sqrt{2mB}}{\hbar}=0.23 fm^{-1}$, $\frac{1}{a}=0.1844$.
+ 
+\chapter{Modello a shell del nucleo}
+
+\section{Livelli nucleoni singoli}
+Succesfull in accounting spins and parities of almost all odd-A ground states.
+
+ The apparent contradictions between a weak-interaction (gaseous) model and a strong- interaction (liquid) model .
+ 
+\subsection{Particelle indipendenti}
+Il cammino libero medio $\lambda \gg R_n$, raggio del nucleo. 
+
+Nel modello a shell si ipotizza che ogni singolo nucleone stia indisturbato su un orbitale di energia determinata prima che urti un alto nucleone cambiando livello $\Rightarrow $ perch\'e abbia un impulso determinato percorre un orbita lunga "diverse volte" la dimensione del nucleo .
+
+I nucleoni hanno un RMS di $0.9 fm$ e la distanza media non pu\'o essere maggiore di $2 fm$ tenendo conto che la densit\'a centrale \'e di $0.17 nucleoni/{fm}^3$.
+
+
+Misure effettuate facendo collidere  nuclei e nucleoni con energie $\approx$ 10-40 MeV (l'energia cinetica dei nucleoni interni ad un nucleo hanno$E_{cin}\approx20-30 MeV$) indicano un $MFP \leq   R_N$ quindi il liquid drop model \'e un modello pi\'u realistico. 
+
+
+\subsection{Suitable average potential for the nucleons}
+
+
+Il modello a shell considera i nucleoni come particelle puntiformi che compiono moti periodici, senza urti, nel nucleo sotto l'azione di una buca di potenziale attrattiva:
+\begin{align*}
+H=\sum \frac{P_1^2}{2m} + \frac{1}{2}\sum_{i\geq j}V_{ij}\\
+=\sum\{ \frac{P_i^2}{2m} + V(r_i)\}+ \sum_{i\geq j} \{ \frac{1}{2}V_{ij}-V(r_i) \}=H_0+\underbrace{H_{Res}}_{Trascuro}
+\end{align*}
+
+determino la forma e la profondit\'a di $V(r)$ e quindi la separazione dei livelli e i numeri di occupazione affinch\'e siano riprodotte le discontiniut\'a dell'energia di legame: se identifico un livello ${nl}_J$, $2J+1$ volte degenere, avremo 2 tipi di gusci:
+\begin{enumerate*}
+\item Closed J-shell: Riempimento di tutti gli stati con diverso $J_z$ ma appartenenti allo stesso J
+\item Major shell closure: If there is a larger gap in the level scheme to the next unfilled J shell, cio\'e se ho un numero magico di nucleoni
+\end{enumerate*}
+
+
+
+The Difference in charge density between $^{205}Tl$, which lacks a single proton in the $3s_{\frac{1}{2}}$ orbit from filling all subshell below the Z=82 gap, and $^{206}Pb$ as determined by electron scattering give us confidence that the indipendent particle description is not just a convinience for analyzing measurements near the nuclear surface but is a valid represetation of the behavior of nucleons throughout the nucleus.
+
+\section{Closed shell}
+
+\subsection{Numeri magici - Evidenza sperimentale del modello a shell}
+Per nuclei con numero magico di nucleoni
+
+2, 8, 20, 28, 50, 82, 126
+
+si evidenziano sperimentalmente le propriet\'a:
+\begin{enumerate*}
+\item Grande energia di legame
+\item Grande quantit\'a di energia richiesta per estrarre un nucleone
+\begin{align*}
+S_N=B(Z,N)-B(Z,N-1)=\\
+m_a(Z,N-1)-m_a(Z,N)+m_N\\
+S_P=B(Z,N)-B(Z-1,N)=\\
+m_a(Z-,N)-m_a(Z,N)+m_(H^1)
+\end{align*}
+
+\item Pi\'u alta energia del primo stato eccitato
+\item Abbondanza di elementi isotopi (o isotoni) con lo stesso numero magico di protoni (o neutroni)
+\end{enumerate*}
+
+Il non plus ultra sono i nuclei doppioamente magici: $_2^2{He}_2 ,  _8^{16}{O}_8 ,  _{20}^{40}{Ca}_{20} ,  _{20}^{48}{Ca}_{28} ,  _{82}^{208}{Pb}_{126}$.\\
+The shell model implies that a doubly-magic nucleus like oxygen-16 should be be particularly stable. So it should require a great deal of energy to excite it.
+
+
+\subsection{Interazione Spin-Orbita e splitting dei livelli energetici}
+
+\begin{enumerate*}
+\item Energia di una particella con carica $-e$ e momento magnetico di dipolo $\vec{\mu}=\frac{e\hbar}{mc}\vec{s}$ in un campo elettrico\\
+\lbt{\vec{E}=-\frac{1}{e}\nabla V}{\vec{H}=-\frac{1}{c}\frac{p}{m}\vec{E}}\\
+\end{enumerate*}
+
+
+$V(r)=V_W(r)+V_{ls}(r)\frac{\scap{l}{s}}{\hbar^2}$, sperimentalmente risulta $V_{ls}$ negativo:
+
+$ V_{ls}(r)=\lambda \frac{1}{r}\frac{\partial V}{\partial r}, \lambda \approx 0.5 {fm}^2$.
+
+$\exv{\scap{l}{s}}=\frac{j(j+1)-l(l+1)-s(s+1)}{2}=$\lbt{\frac{l}{2} \text{ per } j=l+\frac{1}{2}}{-\frac{l+1}{2} \text{ per } j=l-\frac{1}{2}} quindi:
+
+$E(nlj)=E(nl)+E_{ls}=$\lbt{E(nl)+\alpha(l+1) \text{ per } J=l-\frac{1}{2}}{E(nl)-\alpha l \text{ per } J=l+\frac{1}{2}},\\
+per $\alpha>0$ il livello pi\'u basso \'e $j=l+\frac{1}{2}$.
+
+${\Delta E}_{ls}=\frac{2l+1}{2}*\exv{V_{ls}(r)}$, con $\exv{ V_{ls}(r)}\approx -20 A^{-\frac{2}{3}} MeV$:
+
+\begin{tabular}{|c|cc|}
+\hline
+
+&&$E<E({nl}_j)$\\
+\hline
+$1s_{\frac{1}{2}}$ & $2$ & $2$ \\
+\hline
+$1p_{\frac{3}{2}}$ & $4$ & $6$ \\
+$1p_{\frac{1}{2}}$ & $2$ & $8$ \\
+\hline
+$1d_{\frac{5}{2}}$ & $6$ & $14$ \\
+$2s_{\frac{1}{2}}$ & $2$ & $16$ \\
+$1d_{\frac{3}{2}}$ & $4$ & $20$ \\
+\hline
+$1f_{\frac{7}{2}}$ & $8$ & $28$ \\
+\hline
+$2p_{\frac{3}{2}}$ & $4$ & $32$ \\
+$1f_{\frac{5}{2}}$ & $6$ & $38$ \\
+$2p_{\frac{1}{2}}$ & $2$ & $40$ \\
+$1g_{\frac{9}{2}}$ & $10$ & $50$ \\
+\hline
+$1g_{\frac{7}{2}}$ & $8$ & $58$ \\
+$2d_{\frac{5}{2}}$ & $6$ & $64$ \\
+$1h_{\frac{11}{2}}$ & $12$ & $76$ \\
+$2d_{\frac{3}{2}}$ & $4$ & $80$ \\
+$3s_{\frac{1}{2}}$ & $2$ & $82$ \\
+\hline
+$1h_{\frac{9}{2}}$ & $10$ & $92$ \\
+$2f_{\frac{7}{2}}$ & $8$ & $100$ \\
+$2f_{\frac{5}{2}}$ & $6$ & $106$ \\
+$1i_{\frac{13}{2}}$ & $14$ & $120$ \\
+$3p_{\frac{3}{2}}$ & $4$ & $124$ \\
+$3p_{\frac{1}{2}}$ & $2$ & $126$ \\
+\hline
+
+\end{tabular}
+
+\index{Shell model levels}
+
+\section{Shell di valenza}
+
+\begin{enumerate*}
+\item Sub-shell\\
+A Sub shell is the set of states of the electrons which shares common value of orbital angualr momentum.
+\item Momento totale di una sub-shell completa\\
+Completely filled subshells have zero net angular momentum.
+\item Composizione di parit\'a\\
+La parit\'a \'e moltiplicativa
+\end{enumerate*}
+
+
+Subshells with an even number of nucleons have even parity.
+That is just a consequence of the fact that even if the subshell is a negative parity one, negative parities multiply out pairwise to positive ones. Since all subshells of oxygen-16 contain an even number of nucleons, the combined parity of the complete oxygen-16 nucleus should be positive.
+
+
+\subsection{Nucleoni di valenza e holes (One particle and one hole states)}
+Il modello a shell spiega $J^\pi$ di quasi tutti i nuclei con A dispari.
+Nel modello a shell One particle and one hole states tutti i nucleoni sono accoppiati tranne uno quindi le propriet\'a del nucleo discendono dal moto di quello disaccoppiato; questa \'e una semplificazione eccesiva: nello step successivo consideriamo tutti i nucleoni della shell non riempita (tipo 4f ??): per $^{43}_{20}Ca_{23}$ considero ora i tre neutroni in eccesso, per $^{45}_{22}Ti_{23}$ 2 protoni e 3 neutroni.
+Lo stato fondamentale di un nucleo con A=15 ha un nucleone mancante nel livello $1p_\frac{1}{2}$: gli holes sono indicati con $1p_\frac{1}{2}^{-1}$, i numeri quantici degli holes sono gli stessi dei nucleoni.
+
+
+
+
+\subsection{Spin e parit\'a dei nuclei in base al modello a shell}
+
+Spin del nucleo: $I=\sum_{i=1}^A\vec{J_i}=\sum_{i=1}^A{\vec{S_i}+\vec{L_i}}$.
+
+Regole per determinare lo spin dello stato fondamentale del nucleo:
+\begin{enumerate*}
+\item All even-Z and even-N nuclei have I=0: i nucleoni tendono ad accoppiarsi per dare spin totale I=0.
+\item In odd-A nuclei the net spin is almost determined by the j of the last odd particle.
+\item In odd-Z and odd-N nuclei $\vec{I}=\vec{J_p}+\vec{J_n}$ the ground state is the coupling with $\vec{s_P}$ and $\vec{s_N}$ parallel: lo spin del nucleo pu\'o assumere valori tra $|j_p-j_n|\leq J\leq j_p+j_n$, per dire come siano accoppiati i momenti angolari dei nucleoni c'\'e la regola di Nordheim, in buon accordo con i dati sperimentali a eccezione dei nuclei leggeri, basata sull'idea che gli spin dei due nucleoni tendano ad allinearsi:
+\begin{enumerate*}
+\item I momenti angolari $j^p$ e $j^n$ del protone e del neutrone sono opposti se un nucleone ha il proprio spin e momento angolare orbitale paralleli e l'altro anti paralleli: $J=|j^p-j^n|$.
+\item Altirmenti $J=j^p+j^n$
+\end{enumerate*}
+\end{enumerate*}
+
+\begin{align*}
+^{38}{Cl}&:\quad d_{\frac{3}{2}} \text{proton}\quad f_{\frac{7}{2}} \text{neutron}\\
+l_P=2 (, s_p=\frac{1}{2}), j=\frac{3}{2} \Rightarrow \vec{l},  \vec{s} \text{ sono anti-paralleli}\quad l_P=3, j=\frac{7}{2} \Rightarrow \vec{l}, \vec{s} \text{ sono paralleli}
+\end{align*}
+
+
+Nella fisica atomica si enuncia la regola di Hund: quando riempo gli arbitali di un guscio $nl$ prima agli elettroni verranno assegnati gli orbitali non occupati per quanto riguarda i gradi di libert\'a spaziali (orbitali con m diverso) se sono occupati tutti inizio a occupare l'altro posto negli orbitali della stessa sotto-shell con spin opposto: la repulsione elettromagnetica rende energeticamente favorita l'occupazione di livelli spazialmente distinti;
+
+le cose cambiano per gli orbitali dei nucleoni, la forza \'e in media attrattiva quindi il nucleo \'e pi\'u stabile se i nucleoni sono accoppiati in maniera che $\vec{j_1}+\vec{j_2}=0$, cio\'e $l_1=l_2$ e $m_1=-m_2$.
+
+Nuclei pari-pari hanno spin e parit\'a $I^{\pi}=0^+$.
+
+La parit\'a \'e moltiplicativa:
+
+se ho $j_p^{\pi_p}=\frac{5}{2}^+$ e $j_n^{\pi_n}=\frac{1}{2}^-$ avr\'o uno stato $2^-$ o $3^-$.
+
+
+
+\subsection{Momento di dipolo magnetico del nucleo in base al modello a shell (linee di Schmidt)}
+
+\subsection{Fattore giromagnetico}
+\begin{align*}
+&&g_l=&&\\
+&1 P&&0N&\\
+&&g_s=&&\\
+&5.58 P &&-3.83 N&
+\end{align*}
+
+\subsection{Valore d'aspettazione di un'operatore vettoriale (T. di proiezione)}
+
+
+Per W.E.:
+\begin{equation*}
+\exv{\vec{V}}=\exv{V_z}=\frac{\exv{\scap{V}{J}}}{|J^2|}\vec{J}
+\end{equation*}
+
+\subsection{Momento magnetico di dipolo}
+
+As the vector $\vec{j}$ precesses about $j_z$ and $\vec{l}$, $\vec{s}$ about $\vec{j}$ $J_z$and $l_j$,$s_j$ are constant but $l_z$, $s_z$ vary.
+
+
+$\mu=\mu_N\frac{1}{\hbar}(g_ll_z+g_ss_z)$, con $j_z=j\hbar$ this expression will be evalueted between states diagonal in $J$ and $\vec{J_z}$ so $l_z$ and $s_z$ doesn't have defined values.
+
+$\exv{\mu}=[g_lj+(g_s-g_l)\frac{\exv{s_z}}{\hbar}]\mu_N$, using $-2\scap{s}{j}=l(l+1)-s(s+1)-j(j+1)$ we determine $\exv{s_z}=\frac{j}{2j(j+1)[j(j+1)-l(l+1)+s(s+1)]\hbar}$
+
+
+
+\subsection{Momento magnetico di dipolo: singola particella di valenza}
+
+Poich\'e nel nostro modello il $\vec{J}$ spin del nucleo \'e  nientaltro che il momento totale $\vec{j}$ del nucleone singolo:
+\begin{equation*}
+\mu_{nucleus}=\frac{1}{\hbar}\mu_N \Braket{\psi_{nucleus}|g_l\vec{l}+g_s\vec{s}|\psi_{nucleus}}
+\end{equation*}
+ con $\vec{l},\vec{s}$ riferiti al nucleone di valenza.
+ 
+Il teorema di Wigner-Eckart ci dice che il valore medio di un'osservabile vettoriale \'e proporzionale alla sua proiezione sul momento angolare totale, ora per lo spin del nucleo: $\vec{\mu_{nucleus}}=g_{nucleus}\mu_N\frac{\exv{\vec{J}}}{\hbar}$
+ con
+
+\begin{align*} 
+&g_{nucleus}=\frac{\braket{JM_J|g_l\vec{l}\vec{J}+g_s\vec{s}\vec{J}|JM_J}}{\braket{JM_J|\vec{J}^2|JM_J}}= \\ 
+&\frac{\mu_{nucl}}{\mu_N}=g_{nucl}J=(g_l\pm \frac{g_s-g_l}{2l+1})J&\intertext{ per $J=j=l\pm\frac{1}{2}$}
+\end{align*}
+
+Nucleone disaccoppiato:
+\begin{itemize*}
+\item Protone:
+\begin{align*}
+\frac{\mu}{\mu_N}&=\\
+&j+2.29 \text{ per } j=l+\frac{1}{2}\\
+&(j-1.29)\frac{j}{j+1} \text{ per } j=l-\frac{1}{2}
+\end{align*}
+\item Neutrone:
+\begin{align*}
+ \frac{\mu}{\mu_N}&=\\
+ &-1.91 \text{ per } j=l+\frac{1}{2}\\
+ &1.91\frac{j}{j+1} \text{ per } j=l-\frac{1}{2}
+\end{align*}
+\end{itemize*}
+
+\chapter{Modello a gas di fermi del nucleo}
+
+Since the nuclear density is almost constant over the nuclear volume we may approxmate the nucleus as a Fermi free gas confined in a well of nuclear dimension.
+
+\section{Modello a gas di Fermi del  nucleo}
+
+\subsection{Modello a particelle indipendenti}
+N particelle identiche non interagenti:
+
+$H=\sum_i^N [ \frac{p_i^2}{2m}+V_{\inf}(r_i)]$.
+
+\subsection{Zero temperature approx}
+The kinetic energy associated to localization in nuclear volume (few MeV) is large compared with room temperature ($\frac{1}{40} eV$).
+
+\section{Calcolo della densit\'a degli stati per un sistema di N fermioni identici in una scatola}
+
+Density of available state $\frac{dN}{4\pi p^2dp}$ is given by $dN=4*\frac{4\pi p^2\Omega}{h^3}dp$: we are allowed to place 4 particles in each orbital (spin-isospin).
+
+\subsection{Spazio delle Fasi}
+In un volume dello spazio delle fasi $(2\pi\hbar)^3$ ci stanno al pi\'u $\nu$ particelle dove $\nu$ \'e la degenerazione.
+
+\subsection{Density of states}
+Semi-Euristico (Numero di stati fratto volume dello spazio delgi impulsi):
+
+Number of states between $p$ e $p+dp$ is given by $dN=4*\frac{d^3p}{(2\pi\hbar)^3}\Omega=4*\frac{4\pi p^2dp}{(2\pi\hbar)^3}\Omega$.
+
+The infinitesimal thin spherical shell with radius $dp$ has the volume $4\pi p^2dp$.
+
+$g(k)=\frac{dN}{4\pi p^2dp}=\nu\frac{\Omega}{(2\pi)^3}$.
+
+\subsection{Stati particella in una scatola}
+Sia il numero di stati tra $n$ e $n+dn$: $dN=\nu \frac{4\pi n^2dn}{8}$, dove $\nu$ \'e il fattore di degenerazione. La densit\'a di stati fra $k$ e $k+dk$ \'e $g(k)=\frac{dN}{4\pi k^2dk}=\nu \frac{V}{(2\pi)^3}$.
+
+$g(k)=\frac{dN}{4\pi k^2dk}=\nu \frac{V}{(2\pi)^3}$
+
+\section{Relazione tra densit\'a dei nucleoni e impulso di Fermi}
+$A=\int_0^{+\infty}g(k)n(k)4\pi k^2dk$, $n(k)$ \'e il numero medio di occupazione dei livelli di singola particella: per gas completamente degenere (T=0)    
+ $n(k)=\theta (k_F-k)$. 
+ 
+Quindi: $A=\int_0^{k_F}g(k)4\pi k^2dk=\nu \frac{V}{(2\pi)^3}4\pi \frac{k_F^3}{3}$, e la densit\'a dei nucleoni \'e:
+ 
+ \begin{equation*}
+ \rho =\frac{A}{V}=\nu \frac{k_F^3}{6\pi^2}
+ \end{equation*}
+
+Da $\rho=\frac{A}{V}=\frac{A}{\frac{4\pi}{3}r_0^3A}$ ottengo:
+
+$K_F=(\frac{9}{8}\pi)^{\frac{1}{3}}\frac{1}{r_0} (\nu=4)$.
+
+La densit\'a (centrale) $\rho=0,17 Nucleone/fm^3$ quindi $K_F=(\frac{9}{8}\pi)^{\frac{1}{3}}(\frac{\frac{3}{\rho_0}}{4\pi})^{-\frac{1}{3}}=1,36 fm^{-1}$.
+
+\section{Relazione fra densit\'a ed energia di Fermi}
+
+Energia di Fermi = energia dello stato occupato pi\'u alto: $\epsilon_F=\frac{\hbar^2k_F^2}{2m}\approx 38,35 MeV$ (Usando il $k_F$ della sezione di sopra).
+
+Sostituendo l'espressione per $k_F$ ho:
+
+$\epsilon_F=\frac{\hbar^2}{2m}\rho^{\frac{2}{3}}(\frac{6\pi^2}{\nu})^{\frac{2}{3}}$.
+
+\section{Energia cinetica per particella}
+
+Determino l'energia media per nucleone:
+
+$\epsilon_{Kin}=\frac{1}{2m_N}\frac{\int_0^{k_F}k^4dk}{\int_0^{k_F}k^2dk}=\frac{3}{5}\frac{p_F^2}{2m_N}$, o pi\'u direttamente:
+
+$\frac{E_{Kin}}{A}=\frac{3}{5}\epsilon_F \approx 24MeV$.
+
+$\frac{E}{A}=- \frac{B}{A}=-a_V+\text{Trascuto gli altri termini}\approx-15 MeV$ ed essendo l'energia cinetica per particella $(\frac{E}{A})_{Cin}=24 MeV$ derivo che il potenziale di singola particella \'e $(\frac{E}{A})_{Pot}=-39MeV$.
+
+\section{Relazione tra pressione e densit\'a}
+
+\subsection{Potenziali termodinamici}
+
+\begin{align*}
+dF=-pdV-SdT\\
+dG=Vdp-SdT\\
+dU=-pdV+TdS\\
+dH=Vdp+TdS
+\end{align*}
+
+\subsection{Energia media per nucleone}
+$\frac{E_{Kin}}{A}=\frac{3}{5}\epsilon_F$
+
+\subsection{Pressione}
+P esercitata da un gas=Flusso medio di momento attraverso una superficie ideale unitaria.
+\begin{align*}
+PV=\frac{1}{3}\int_0^{\infty}N(p)pv_pdp\quad (\exv{\vec{a} \cdot \hat{n}}=\frac{1}{3}a)\\
+P=-(\frac{\partial U}{\partial V})=N\frac{2}{5}\epsilon_F=\frac{2}{3}\frac{U}{V}
+\end{align*}
+
+Ricavo energia libera di Gibbs: $G=U+PV=N\epsilon_F$.
+
+In maniera pi\'u meccanica 
+\begin{align*}
+&P=-\left.\frac{\partial E}{\partial V} \right|_{S,A}=-\frac{\partial (\frac{E}{A})}{\partial (\frac{V}{A})}\\
+&=-\frac{\partial \epsilon}{\partial \frac{1}{\rho}}=\rho^2 \frac{\partial \epsilon}{\partial \rho}=\frac{2}{5}\frac{\hbar^2}{2m}(\frac{6\pi^2}{\nu})^{\frac{2}{3}}\rho^\frac{5}{3}
+\end{align*}
+
+
+\section{Calore specifico:Approssimazione}
+$\delta N=(\frac{\partial N}{\partial \epsilon})_{\epsilon_F}$: 
+
+la quantit\'a fra parentesi \'e la densit\'a di stati alla superficie di Fermi e $\delta \epsilon \approx kT$ (Distrinuzione FD: approssimazione per basse temperature dello "slittamento" in avanti dei numeri di occupazione rispetto T=0) quindi l'energia per portare un gas di Fermi a temperatura $kT$ \'e:
+
+\begin{align*}
+&\delta U\approx \delta NkT=g(\epsilon_F)(kT)^2 \Rightarrow C_v=(\frac{\partial U}{\partial T})_V=2g(\epsilon_F)k^2T\\
+&=3(kN)\frac{T}{T_F}=3R\frac{T}{T_F}
+\end{align*}
+
+(Il risultato corretto \'e $C_V=k\frac{\pi^2}{3}g(\epsilon_F)kT=\frac{\pi^2}{2}R\frac{T}{T_F}$).
+
+The electronic degrees of freedom are largely "frozen out" at room temperature because it is not possible to excite the majority of electronics buried deep in the Fermi sea.
+
+\section{Relazione fra termine di volume della SEMF e il modello a gas di Fermi}
+
+This term arise from $\exv{T+V}$\\
+\begin{itemize*}
+\item kinetic energy.
+
+\begin{align*}
+T=A*\exv{T}=\frac{3}{5}\frac{{P_F}^2}{2m_N}A=\frac{3}{5}\frac{\hbar^2}{2m_N}(\frac{3\pi^2\rho}{2})^{\frac{2}{3}}A
+\end{align*}
+
+
+\item Potential energy:
+
+Central potential $V_C(r)$ between nucleons (other potential energy contibutions associated with the spins will tend to yield an average central potential when one integrates over all directions).
+
+\begin{align*}
+V=\frac{1}{2}\sum_{ij}\int\rho(\vec{r_i})\rho(\vec{r_j})V_C(r_{ij})d^3r_id^3r_j
+\end{align*}
+
+we consider the potential between two nucleons and multiply by number of couples (all nucleons are equivalent, the total wave function is antisymmetrized):
+
+$\frac{A(A-1)}{2}\int\rho(\vec{r_1})\rho(\vec{r_2})V_C(r_{12})d^3r_1d^3r_2$.
+
+Since nucleon's density is constant over nuclear volume  $\Omega$ we estimate:
+
+$\rho(\vec{r_i})=\frac{\text{Probability}}{\text{unit volume(see normalization)}}\approx\frac{1}{\Omega}$, $V_C$ is short-ranged and nuclear medium is uniform  the integration over $d^3r_2$.
+
+\begin{align*}
+\int\rho(\vec{r_2})V_C(r_{12})d^3r_2\approx\frac{1}{\Omega}\int V_C(\vec{r})d^3r=\frac{\overline{V_C}}{\Omega}
+\end{align*}
+indipendent of the location of 1.
+
+ $V\approx\frac{A^2}{2\Omega}\overline{V_C}=\frac{1}{2}A\rho\overline{V_C} $ ($<0$ for attractive forces).
+ 
+$a_V=-\frac{T+V}{A}\approx c_2\rho-c_1\rho^{\frac{2}{3}}$, con $c_1$ associated with kinetic energy and $c_2$ with potential energy (The nuclei don't collapse: we don't considere the repulsive core).
+\end{itemize*}
+
+\section{Relazione fra termine di superficie (SEMF) e il modello a gas di Fermi}
+
+\begin{enumerate*}
+\item Finite Fermi gas on kinetic energy.
+
+The energy eigenfunction for cubic box $L^3$ (the shape change the result by a geometrical factor)  are $\psi=\sin{(k_xx)}\sin{(k_yy)}\sin{(k_zz)}$, but the state $k_i=0$ are not allowed; the number of states for $k_x=0$: $dN_x=4*\frac{L^2dk_ydk_z}{(2\pi)^2}=\frac{4S2\pi kdk}{6(2\pi)^2}=\frac{S}{3\pi}kdk$, con $S=6L^2$ superfice laterale del cubo.
+
+\subsection{Correzione volume volume finito}
+
+\begin{align*}
+&dN=(\frac{2\Omega}{\pi^2}k^2-\frac{S}{\pi}k)dk\\
+&A=\int_0^{k_F}(\frac{2\omega}{\pi^2}k^2-\frac{S}{\pi}k)dk=\frac{2\Omega}{3\pi^2}{k_F}^3-\frac{S}{2\pi}k_F^2\\
+&=\frac{2\Omega}{3\pi^2}k_F^3(1-\frac{3\pi}{4}\frac{S}{\Omega}\frac{1}{k_F})\\
+&\exv{T}=\frac{\hbar^2}{2m_N}\frac{\int_0^{k_F}(\frac{2\Omega}{\pi^2}-\frac{S}{\pi}k^3)dk}{A}\approx\frac{3}{5}\frac{\hbar^2k_F^2}{2m_N}[1+\frac{\pi}{8}\frac{S}{\Omega}\frac{1}{k_F}+\ldots]
+\end{align*}
+
+Since for nuclei we have $\frac{S}{\Omega}\approx\frac{4\pi r_0^2A^{\frac{2}{3}}}{\frac{4\pi}{3}r_0^3A}\approx\frac{3}{r_0A^{\frac{1}{3}}}$:
+
+$\exv{T}=\frac{3}{5}E_F+\frac{9}{40}E_F\frac{\pi}{r_0k_F}\frac{1}{A^{\frac{1}{3}}}$.
+
+$a_S(T)=\frac{9}{40}E_F\frac{\pi}{r_0k_F}\approx 18 MeV$ (valid only to within a geometric factor like 2 or 3).
+
+\subsection{Finite Fermi gas on potential energy}
+The volume associated with the nuclear surface is a shell of thickness approximately equal to the range of the nuclear force: $\delta\Omega\approx4\pi R^2r_1$.
+
+Sottraggo la correzione all'energia potenziale 
+
+\begin{align*}
+V\approx\frac{1}{2}A\rho\overline{V_C}(1-\frac{d\Omega}{\Omega})=\frac{1}{2}A\rho\overline{V_C}-\frac{3}{2}\rho\frac{r_1}{r_0}A^{\frac{2}{3}\overline{V_C}}
+\end{align*}
+
+$a_S(V)\approx\frac{3}{2}\rho\frac{r_1}{r_2}\overline{V_C}$ ($>0$ for attrattive force).
+
+For a square well potential:
+
+$V=\frac{1}{2}A\rho\overline{V_C}[1-\frac{9}{16}\frac{r_1}{R}+\frac{1}{32}(\frac{r_1}{R})^3]$.
+\end{enumerate*}
+
+\section{Relazione fra termine Coulombiano della SEMF e il modello a gas di Fermi}
+
+\subsection{Charge density}
+
+$\rho_e=\frac{Z}{A}\rho e=\frac{Ze}{\Omega}$.
+
+\subsection{Coulomb energy}
+
+\begin{align*}
+&V_c=\frac{1}{2}\int\rho_e^2\frac{d^3r_1d^3r_2}{r_{12}}=\rho_e^2\int_0^R\frac{4\pi r^3}{3}\frac{4\pi r^2dr}{r}\\
+&=\frac{4\pi}{3}\rho_e^24\pi\frac{R^5}{5}=\frac{3}{5}\frac{Z^2e^2}{R}=\frac{3}{5}\frac{Z^2e^2}{r_0}A^{-\frac{1}{3}}\\
+&\Rightarrow a_C=\frac{3}{5}\frac{e^2}{r_0}\approx 0.71 MeV
+\end{align*}
+
+\section{Relazione fra termine di simmetria della SEMF e il modello a gas di Fermi}
+Calcolo del termine di simmetria della formula semiempirica di massa mediante il modello a gas di Fermi del nucleo.
+
+\subsection{Energia cinetica per nucleone}
+
+$\frac{E_{Kin}}{A}=\frac{3}{5}\epsilon_F$
+
+\subsection{Energia di Fermi}
+
+$\epsilon_F=\frac{\hbar^2}{2m}\rho^{\frac{2}{3}}(\frac{6\pi^2}{\nu})^{\frac{2}{3}}$
+\subsection{Total kinetic energy for $N=Z$} 
+$T_0=A\frac{3}{5}\frac{\hbar^2}{2m_N}(\frac{3\pi^2\rho_0}{2})^{\frac{2}{3}}$.
+
+The nuclear force prefers $T = 0$, so nuclei with $Z = N$ are expected to have extra stability and so maximize the binding energy B. Let's assume two Fermi gases consisting of Z protons and N neutrons. We will allow the relative number of protons and neutrons to vary but we will keep $A = Z + N$ fixed.
+
+Densities of the two components:
+
+\begin{align*}
+\rho_0=\frac{A}{V}\\
+\rho_p=\frac{Z}{A}\rho_0\equiv x\rho_0\\
+\rho_n=\frac{N}{A}\rho_0\equiv (1-x)\rho_0\\
+A=Z+N \text{costante}
+\end{align*}
+
+Il totale dell'energia cinetica per i \Pproton e \Pneutron \'e
+\begin{align*}
+&E_{Cin}=\frac{3}{5}(N\epsilon_F^N+Z\epsilon_F^P)=\frac{3}{5}\frac{\hbar^2}{2M}\frac{(3\pi)^\frac{2}{3}}{2}(N^{\frac{5}{3}}+Z^{\frac{5}{3}})=T_P+T_N\\
+&=2^\frac{2}{3}T_0[x^\frac{5}{3}+(1-x)^\frac{5}{3}]
+\end{align*}
+
+espando intorno a $x=\frac{1}{2}$, pongo $\delta x=x-\frac{1}{2}=\frac{Z-N}{A}$ e ottengo l'approssimazione  $T_P+T_N=T_0+\frac{5}{9}T_0(\frac{Z-N}{A})^2=T_0+a_{Sym}\frac{(N-Z)^2}{A}$.
+
+ $(\frac{E}{N})_{Sym}=\frac{5}{9}(\frac{E}{N})=a_{Sym}\approx 12.8 MeV$. 
+ 
+ Ricavo il contributo del potenziale nucleare a $a_{Sym}$.
+
+$(\frac{E_{Sym}}{N})_{Int}=a_{Sym}-(\frac{E}{N})_{Sym}\approx16 MeV$, sapendo che $a_{Sym}\approx20-30 Mev$.
+
+\end{document}
